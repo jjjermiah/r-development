@@ -1,23 +1,45 @@
 project:
   type: website
+  preview:
+    port: 4020
+    browser: false
 
 website:
   title: "R Development"
+  navbar:
+    left:
+      - text: "Home"
+        file: index.md
+      - sidebar:r4ds
+      - sidebar:adv-r
+      - sidebar:r-pkgs
+      - sidebar:r-production
+      - sidebar:shiny
+      - sidebar:modelling
+      
+
   sidebar:
-    style: floating
-    contents:
-      - section: "R for Data Science"
-        contents: r4ds
-      - section: "Advanced R"
-        contents: adv-r
-      - section: "Package Dev"
-        contents: r-pkgs
-      - section: "Production Engineering"
-        contents: r-production
-      - section: "Shiny"
-        contents: shiny
-      - section: "Modeling"
-        contents: modelling
+    - id: r4ds
+      title: "R for Data Science"
+      contents: r4ds
+    - id: adv-r
+      title: "Advanced R"
+      contents: 
+        - adv-r/index.qmd
+        - adv-r/01-wrangle.qmd
+    - id: r-pkgs
+      title: "Package Dev"
+      contents: r-pkgs
+    - id: r-production
+      title: "Production Engineering"
+      contents: r-production
+    - id: shiny
+      title: "Shiny"
+
+    - id: modelling
+      title: "Modelling"
+
+  page-navigation: true
 
 format:
   html:
