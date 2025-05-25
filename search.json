@@ -115,7 +115,20 @@
     "href": "shiny/index.html",
     "title": "Shiny Apps",
     "section": "",
-    "text": "Shiny Apps"
+    "text": "Shiny Apps",
+    "crumbs": [
+      "Shiny Apps"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html",
+    "href": "modelling/index.html",
+    "title": "Building models in R",
+    "section": "",
+    "text": "Building models in R",
+    "crumbs": [
+      "Building models in R"
+    ]
   },
   {
     "objectID": "r-pkgs/index.html",
