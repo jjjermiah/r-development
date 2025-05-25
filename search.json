@@ -1,0 +1,150 @@
+[
+  {
+    "objectID": "r-production/index.html",
+    "href": "r-production/index.html",
+    "title": "R in production",
+    "section": "",
+    "text": "R in production",
+    "crumbs": [
+      "R in production"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "This is a curated project with the goal of a fully focussed deep-dive into learning R.\n\n\n\nFundamentals and best practices for writing robust and readable R code.\n\nR for Data Science, 2nd Ed. – Modern R workflows using tidyverse\nhttps://r4ds.hadley.nz\n\nR Programming for Data Science – Intro from Roger Peng\nhttps://bookdown.org/rdpeng/rprogdatascience/\n\nHands-On Programming with R – Learn R through building games\nhttps://rstudio-education.github.io/hopr/\n\nEfficient R Programming – Profiling, memory, speed\nhttps://csgillespie.github.io/efficientR/\n\nAdvanced R, 2nd Ed. – Language internals and functional patterns\nhttps://adv-r.hadley.nz\n\nAdvanced R Solutions – Companion answers to exercises\nhttps://advanced-r-solutions.rbind.io\n\n\n\n\n\nAuthoring clean, testable, production-grade packages.\n\nR Packages, 2nd Ed. – How to write and maintain R packages\nhttps://r-pkgs.org\n\nTidyverse Design Guide – Philosophy and patterns for extensibility\nhttps://design.tidyverse.org\n\n\n\n\n\nCreating effective visual communication with ggplot2 and beyond.\n\nggplot2, 3rd Ed. – The definitive book\nhttps://ggplot2-book.org\n\nR Graphics Cookbook – Recipe-based graphics guide\nhttps://r-graphics.org\n\nFundamentals of Data Visualization – Design-focused guide\nhttps://clauswilke.com/dataviz/\n\n\n\n\n\nInteractive dashboards and production deployment.\n\nMastering Shiny – Build full Shiny apps\nhttps://mastering-shiny.org\n\nEngineering Production-Grade Shiny – Deploying Shiny at scale\nhttps://engineering-shiny.org\n\nInteractive Web Data Visualization with Plotly & Shiny\nhttps://plotly-r.com\n\nJS4Shiny Field Notes – Add JavaScript to Shiny\nhttps://connect.thinkr.fr/js4shinyfieldnotes/\n\n\n\n\n\nBayesian, regression, and classical inference workflows.\n\nStatistical Inference via Data Science (ModernDive)\nhttps://moderndive.com\n\nRegression and Other Stories – Applied regression with R\nhttps://avehtari.github.io/ROS-Examples/\n\nBayes Rules! – Intro Bayesian modeling with R\nhttps://www.bayesrulesbook.com/\n\nStatistical Rethinking (recode in R)\nhttps://bookdown.org/ajkurz/Statistical_Rethinking_recoded/\n\nHandbook of Regression in People Analytics\nhttp://peopleanalytics-regression-book.org/index.html\n\n\n\n\n\nReproducibility and reporting tools with Quarto, R Markdown, Bookdown.\n\nR Markdown: The Definitive Guide\nhttps://bookdown.org/yihui/rmarkdown/\n\nR Markdown Cookbook\nhttps://bookdown.org/yihui/rmarkdown-cookbook/\n\nBookdown – Author books in R\nhttps://bookdown.org/yihui/bookdown/\n\nBlogdown – Create static blogs with R Markdown\nhttps://bookdown.org/yihui/blogdown/\n\n\n\n\n\nOptimize R code and interface with compiled code.\n\nSeamless R and C++ with Rcpp\nhttps://rcpp.org/book/\n\nAdvanced R: Rcpp chapter\nhttps://adv-r.hadley.nz/rcpp.html\n\nThe R Inferno – Quirky guide to common R traps\nhttp://www.burns-stat.com/pages/Tutor/R_inferno.pdf\n\n\n\n\n\nModel building and modern ML frameworks in R.\n\nHands-on Machine Learning with R – From preprocessing to modeling\nhttps://bradleyboehmke.github.io/HOML/\nhttps://koalaverse.github.io/homlr/\n\nTidy Modeling with R – Using tidymodels\nhttps://www.tmwr.org\n\n\n\n\n\nCreate reproducible, maintainable workflows.\n\nReproducible Research with R and RStudio\nhttps://bookdown.org/rdpeng/RProgDA/\n\nTargets – Robust reproducible R pipelines\nhttps://books.ropensci.org/targets/\n\ndrake – Declarative pipeline toolkit\nhttps://books.ropensci.org/drake/\n\n\n\n\n\nWorking with textual data in the tidyverse.\n\nText Mining with R – Tidy approach to unstructured data\nhttps://www.tidytextmining.com\n\n\n\n\n\nMore technical or graduate-level material.\n\nR for Graduate Students\nhttps://bookdown.org/yih_huynh/Guide-to-R-Book/\n\nDive into Deep Learning – Deep learning foundations (MxNet, PyTorch)\nhttps://d2l.ai\n\n\n\n\n\nShell and CLI skills for working alongside R.\n\nData Science at the Command Line, 2nd Ed.\nhttps://www.datascienceatthecommandline.com/2e/index.html\n\n\nIf you want, I can generate this as a live Quarto site or scaffold it into your r-learning/ repo. Let me know."
+  },
+  {
+    "objectID": "index.html#core-r-programming",
+    "href": "index.html#core-r-programming",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Fundamentals and best practices for writing robust and readable R code.\n\nR for Data Science, 2nd Ed. – Modern R workflows using tidyverse\nhttps://r4ds.hadley.nz\n\nR Programming for Data Science – Intro from Roger Peng\nhttps://bookdown.org/rdpeng/rprogdatascience/\n\nHands-On Programming with R – Learn R through building games\nhttps://rstudio-education.github.io/hopr/\n\nEfficient R Programming – Profiling, memory, speed\nhttps://csgillespie.github.io/efficientR/\n\nAdvanced R, 2nd Ed. – Language internals and functional patterns\nhttps://adv-r.hadley.nz\n\nAdvanced R Solutions – Companion answers to exercises\nhttps://advanced-r-solutions.rbind.io"
+  },
+  {
+    "objectID": "index.html#package-development",
+    "href": "index.html#package-development",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Authoring clean, testable, production-grade packages.\n\nR Packages, 2nd Ed. – How to write and maintain R packages\nhttps://r-pkgs.org\n\nTidyverse Design Guide – Philosophy and patterns for extensibility\nhttps://design.tidyverse.org"
+  },
+  {
+    "objectID": "index.html#data-visualization",
+    "href": "index.html#data-visualization",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Creating effective visual communication with ggplot2 and beyond.\n\nggplot2, 3rd Ed. – The definitive book\nhttps://ggplot2-book.org\n\nR Graphics Cookbook – Recipe-based graphics guide\nhttps://r-graphics.org\n\nFundamentals of Data Visualization – Design-focused guide\nhttps://clauswilke.com/dataviz/"
+  },
+  {
+    "objectID": "index.html#web-applications-shiny",
+    "href": "index.html#web-applications-shiny",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Interactive dashboards and production deployment.\n\nMastering Shiny – Build full Shiny apps\nhttps://mastering-shiny.org\n\nEngineering Production-Grade Shiny – Deploying Shiny at scale\nhttps://engineering-shiny.org\n\nInteractive Web Data Visualization with Plotly & Shiny\nhttps://plotly-r.com\n\nJS4Shiny Field Notes – Add JavaScript to Shiny\nhttps://connect.thinkr.fr/js4shinyfieldnotes/"
+  },
+  {
+    "objectID": "index.html#statistical-inference-modeling",
+    "href": "index.html#statistical-inference-modeling",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Bayesian, regression, and classical inference workflows.\n\nStatistical Inference via Data Science (ModernDive)\nhttps://moderndive.com\n\nRegression and Other Stories – Applied regression with R\nhttps://avehtari.github.io/ROS-Examples/\n\nBayes Rules! – Intro Bayesian modeling with R\nhttps://www.bayesrulesbook.com/\n\nStatistical Rethinking (recode in R)\nhttps://bookdown.org/ajkurz/Statistical_Rethinking_recoded/\n\nHandbook of Regression in People Analytics\nhttp://peopleanalytics-regression-book.org/index.html"
+  },
+  {
+    "objectID": "index.html#literate-programming-authoring",
+    "href": "index.html#literate-programming-authoring",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Reproducibility and reporting tools with Quarto, R Markdown, Bookdown.\n\nR Markdown: The Definitive Guide\nhttps://bookdown.org/yihui/rmarkdown/\n\nR Markdown Cookbook\nhttps://bookdown.org/yihui/rmarkdown-cookbook/\n\nBookdown – Author books in R\nhttps://bookdown.org/yihui/bookdown/\n\nBlogdown – Create static blogs with R Markdown\nhttps://bookdown.org/yihui/blogdown/"
+  },
+  {
+    "objectID": "index.html#high-performance-c-integration",
+    "href": "index.html#high-performance-c-integration",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Optimize R code and interface with compiled code.\n\nSeamless R and C++ with Rcpp\nhttps://rcpp.org/book/\n\nAdvanced R: Rcpp chapter\nhttps://adv-r.hadley.nz/rcpp.html\n\nThe R Inferno – Quirky guide to common R traps\nhttp://www.burns-stat.com/pages/Tutor/R_inferno.pdf"
+  },
+  {
+    "objectID": "index.html#machine-learning",
+    "href": "index.html#machine-learning",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Model building and modern ML frameworks in R.\n\nHands-on Machine Learning with R – From preprocessing to modeling\nhttps://bradleyboehmke.github.io/HOML/\nhttps://koalaverse.github.io/homlr/\n\nTidy Modeling with R – Using tidymodels\nhttps://www.tmwr.org"
+  },
+  {
+    "objectID": "index.html#pipelines-reproducibility",
+    "href": "index.html#pipelines-reproducibility",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Create reproducible, maintainable workflows.\n\nReproducible Research with R and RStudio\nhttps://bookdown.org/rdpeng/RProgDA/\n\nTargets – Robust reproducible R pipelines\nhttps://books.ropensci.org/targets/\n\ndrake – Declarative pipeline toolkit\nhttps://books.ropensci.org/drake/"
+  },
+  {
+    "objectID": "index.html#text-mining-nlp",
+    "href": "index.html#text-mining-nlp",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Working with textual data in the tidyverse.\n\nText Mining with R – Tidy approach to unstructured data\nhttps://www.tidytextmining.com"
+  },
+  {
+    "objectID": "index.html#academic-level-resources",
+    "href": "index.html#academic-level-resources",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "More technical or graduate-level material.\n\nR for Graduate Students\nhttps://bookdown.org/yih_huynh/Guide-to-R-Book/\n\nDive into Deep Learning – Deep learning foundations (MxNet, PyTorch)\nhttps://d2l.ai"
+  },
+  {
+    "objectID": "index.html#command-line-efficiency",
+    "href": "index.html#command-line-efficiency",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "Shell and CLI skills for working alongside R.\n\nData Science at the Command Line, 2nd Ed.\nhttps://www.datascienceatthecommandline.com/2e/index.html\n\n\nIf you want, I can generate this as a live Quarto site or scaffold it into your r-learning/ repo. Let me know."
+  },
+  {
+    "objectID": "adv-r/01-wrangle.html",
+    "href": "adv-r/01-wrangle.html",
+    "title": "hi",
+    "section": "",
+    "text": "hi",
+    "crumbs": [
+      "hi"
+    ]
+  },
+  {
+    "objectID": "shiny/index.html",
+    "href": "shiny/index.html",
+    "title": "Shiny Apps",
+    "section": "",
+    "text": "Shiny Apps"
+  },
+  {
+    "objectID": "r-pkgs/index.html",
+    "href": "r-pkgs/index.html",
+    "title": "R Package Development",
+    "section": "",
+    "text": "R Package Development",
+    "crumbs": [
+      "R Package Development"
+    ]
+  },
+  {
+    "objectID": "adv-r/index.html",
+    "href": "adv-r/index.html",
+    "title": "welcome",
+    "section": "",
+    "text": "welcome",
+    "crumbs": [
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "r4ds/index.html",
+    "href": "r4ds/index.html",
+    "title": "R for Data Science",
+    "section": "",
+    "text": "R for Data Science",
+    "crumbs": [
+      "R for Data Science"
+    ]
+  }
+]
