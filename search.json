@@ -6,6 +6,7 @@
     "section": "",
     "text": "This section explores strategies and best practices for using R in production environments, focusing on reproducibility, deployment, and scalability.\n\n\n\nReproducible research: Creating reproducible analyses and reports\nDocker integration: Containerizing R applications for consistent deployment\nPerformance optimization: Scaling R for larger datasets and computations\nWorkflow automation: Building data pipelines with targets and drake\nCloud deployment: Running R in cloud environments (AWS, GCP, Azure)\nAPI development: Creating APIs with plumber and FastAPI\nDatabase integration: Efficient database connections and queries\n\n\n\n\n\nEngineering Production-Grade Shiny Apps - Best practices for production Shiny apps\nEfficient R Programming - Performance optimization\ntargets - Robust reproducible data pipelines\ndrake - Declarative pipeline toolkit\nR Infrastructure - RStudio’s guide to production infrastructure\n\n\n\n\nThis section will include examples of deploying R code in production environments and lessons learned.\n\n\n\nAfter working through this section, I should be able to:\n\nBuild reproducible R workflows that can run consistently across different environments\nContainerize R applications using Docker for deployment\nOptimize R code for better performance with large datasets\nCreate automated data pipelines using targets or drake\nDeploy R applications to cloud environments\nDevelop APIs that expose R functionality to other applications\nEstablish efficient connections between R and various database systems",
     "crumbs": [
+      "Production Engineering",
       "R in Production"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "",
     "text": "Reproducible research: Creating reproducible analyses and reports\nDocker integration: Containerizing R applications for consistent deployment\nPerformance optimization: Scaling R for larger datasets and computations\nWorkflow automation: Building data pipelines with targets and drake\nCloud deployment: Running R in cloud environments (AWS, GCP, Azure)\nAPI development: Creating APIs with plumber and FastAPI\nDatabase integration: Efficient database connections and queries",
     "crumbs": [
+      "Production Engineering",
       "R in Production"
     ]
   },
@@ -26,6 +28,7 @@
     "section": "",
     "text": "Engineering Production-Grade Shiny Apps - Best practices for production Shiny apps\nEfficient R Programming - Performance optimization\ntargets - Robust reproducible data pipelines\ndrake - Declarative pipeline toolkit\nR Infrastructure - RStudio’s guide to production infrastructure",
     "crumbs": [
+      "Production Engineering",
       "R in Production"
     ]
   },
@@ -36,6 +39,7 @@
     "section": "",
     "text": "This section will include examples of deploying R code in production environments and lessons learned.",
     "crumbs": [
+      "Production Engineering",
       "R in Production"
     ]
   },
@@ -46,6 +50,7 @@
     "section": "",
     "text": "After working through this section, I should be able to:\n\nBuild reproducible R workflows that can run consistently across different environments\nContainerize R applications using Docker for deployment\nOptimize R code for better performance with large datasets\nCreate automated data pipelines using targets or drake\nDeploy R applications to cloud environments\nDevelop APIs that expose R functionality to other applications\nEstablish efficient connections between R and various database systems",
     "crumbs": [
+      "Production Engineering",
       "R in Production"
     ]
   },
@@ -100,104 +105,11 @@
     ]
   },
   {
-    "objectID": "r-pkgs/index.html",
-    "href": "r-pkgs/index.html",
-    "title": "R Package Development",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R-Development Garden",
     "section": "",
-    "text": "This section covers the process of creating, documenting, testing, and sharing R packages. Based primarily on R Packages (2nd Edition) by Hadley Wickham and Jenny Bryan.\n\n\n\nPackage structure: Understanding the fundamental components of R packages\nDocumentation: Using roxygen2 for function documentation and vignettes\nTesting: Implementing unit tests with testthat\nDependencies: Managing package dependencies efficiently\nCRAN submission: Preparing packages for CRAN submission\nGitHub integration: Using GitHub for version control and collaboration\nContinuous integration: Setting up CI/CD workflows for R packages\n\n\n\n\n\nR Packages, 2nd Edition - How to write and maintain R packages\nTidyverse Design Guide - Philosophy and patterns for extensibility\nrOpenSci Packages Guide - Best practices for scientific packages\nWriting R Extensions - Official R manual for package authors\n\n\n\n\nI’ll document my package development journey here, including any packages I create.\n\n\n\nAfter working through this section, I should be able to:\n\nCreate well-structured R packages following best practices\nWrite comprehensive function documentation using roxygen2\nImplement effective unit tests to ensure package reliability\nManage package dependencies efficiently\nPrepare packages for submission to CRAN\nUse GitHub for package version control and collaboration\nSet up continuous integration workflows for R packages\nCreate vignettes and other documentation to help users understand my packages",
-    "crumbs": [
-      "R Package Development"
-    ]
-  },
-  {
-    "objectID": "r-pkgs/index.html#key-topics",
-    "href": "r-pkgs/index.html#key-topics",
-    "title": "R Package Development",
-    "section": "",
-    "text": "Package structure: Understanding the fundamental components of R packages\nDocumentation: Using roxygen2 for function documentation and vignettes\nTesting: Implementing unit tests with testthat\nDependencies: Managing package dependencies efficiently\nCRAN submission: Preparing packages for CRAN submission\nGitHub integration: Using GitHub for version control and collaboration\nContinuous integration: Setting up CI/CD workflows for R packages",
-    "crumbs": [
-      "R Package Development"
-    ]
-  },
-  {
-    "objectID": "r-pkgs/index.html#resources",
-    "href": "r-pkgs/index.html#resources",
-    "title": "R Package Development",
-    "section": "",
-    "text": "R Packages, 2nd Edition - How to write and maintain R packages\nTidyverse Design Guide - Philosophy and patterns for extensibility\nrOpenSci Packages Guide - Best practices for scientific packages\nWriting R Extensions - Official R manual for package authors",
-    "crumbs": [
-      "R Package Development"
-    ]
-  },
-  {
-    "objectID": "r-pkgs/index.html#my-package-projects",
-    "href": "r-pkgs/index.html#my-package-projects",
-    "title": "R Package Development",
-    "section": "",
-    "text": "I’ll document my package development journey here, including any packages I create.",
-    "crumbs": [
-      "R Package Development"
-    ]
-  },
-  {
-    "objectID": "r-pkgs/index.html#learning-outcomes",
-    "href": "r-pkgs/index.html#learning-outcomes",
-    "title": "R Package Development",
-    "section": "",
-    "text": "After working through this section, I should be able to:\n\nCreate well-structured R packages following best practices\nWrite comprehensive function documentation using roxygen2\nImplement effective unit tests to ensure package reliability\nManage package dependencies efficiently\nPrepare packages for submission to CRAN\nUse GitHub for package version control and collaboration\nSet up continuous integration workflows for R packages\nCreate vignettes and other documentation to help users understand my packages",
-    "crumbs": [
-      "R Package Development"
-    ]
-  },
-  {
-    "objectID": "modelling/index.html",
-    "href": "modelling/index.html",
-    "title": "Building Models in R",
-    "section": "",
-    "text": "This section explores statistical modeling, machine learning, and inference techniques in R, covering both classical and modern approaches.\n\n\n\nLinear models: Regression, ANOVA, and their extensions\nGeneralized linear models: Logistic, Poisson regression, and more\nMixed effects models: Analyzing hierarchical and longitudinal data\nBayesian analysis: Using Stan, brms, and Bayesian workflows\nMachine learning: Classification, regression, clustering with tidymodels\nDeep learning: Neural networks with torch and keras\nModel evaluation: Cross-validation, metrics, and model comparison\nInterpretable machine learning: Understanding model predictions\n\n\n\n\n\nStatistical Rethinking (recoded in R) - Bayesian modeling\nRegression and Other Stories - Applied regression with R\nHands-on Machine Learning with R - From preprocessing to modeling\nTidy Modeling with R - Using tidymodels framework\nBayes Rules! - Intro Bayesian modeling with R\n\n\n\n\nI’ll document my modeling projects here, including code examples, visualizations, and performance analyses.\n\n\n\nAfter working through this section, I should be able to:\n\nBuild and interpret various types of linear and generalized linear models\nImplement mixed effects models for hierarchical and longitudinal data\nPerform Bayesian analysis using Stan, brms, and related frameworks\nApply machine learning techniques using the tidymodels ecosystem\nImplement neural networks and deep learning models in R\nProperly evaluate models using cross-validation and appropriate metrics\nInterpret model results to derive meaningful insights\nSelect appropriate modeling approaches for different types of problems",
-    "crumbs": [
-      "Building Models in R"
-    ]
-  },
-  {
-    "objectID": "modelling/index.html#key-topics",
-    "href": "modelling/index.html#key-topics",
-    "title": "Building Models in R",
-    "section": "",
-    "text": "Linear models: Regression, ANOVA, and their extensions\nGeneralized linear models: Logistic, Poisson regression, and more\nMixed effects models: Analyzing hierarchical and longitudinal data\nBayesian analysis: Using Stan, brms, and Bayesian workflows\nMachine learning: Classification, regression, clustering with tidymodels\nDeep learning: Neural networks with torch and keras\nModel evaluation: Cross-validation, metrics, and model comparison\nInterpretable machine learning: Understanding model predictions",
-    "crumbs": [
-      "Building Models in R"
-    ]
-  },
-  {
-    "objectID": "modelling/index.html#resources",
-    "href": "modelling/index.html#resources",
-    "title": "Building Models in R",
-    "section": "",
-    "text": "Statistical Rethinking (recoded in R) - Bayesian modeling\nRegression and Other Stories - Applied regression with R\nHands-on Machine Learning with R - From preprocessing to modeling\nTidy Modeling with R - Using tidymodels framework\nBayes Rules! - Intro Bayesian modeling with R",
-    "crumbs": [
-      "Building Models in R"
-    ]
-  },
-  {
-    "objectID": "modelling/index.html#model-gallery",
-    "href": "modelling/index.html#model-gallery",
-    "title": "Building Models in R",
-    "section": "",
-    "text": "I’ll document my modeling projects here, including code examples, visualizations, and performance analyses.",
-    "crumbs": [
-      "Building Models in R"
-    ]
-  },
-  {
-    "objectID": "modelling/index.html#learning-outcomes",
-    "href": "modelling/index.html#learning-outcomes",
-    "title": "Building Models in R",
-    "section": "",
-    "text": "After working through this section, I should be able to:\n\nBuild and interpret various types of linear and generalized linear models\nImplement mixed effects models for hierarchical and longitudinal data\nPerform Bayesian analysis using Stan, brms, and related frameworks\nApply machine learning techniques using the tidymodels ecosystem\nImplement neural networks and deep learning models in R\nProperly evaluate models using cross-validation and appropriate metrics\nInterpret model results to derive meaningful insights\nSelect appropriate modeling approaches for different types of problems",
-    "crumbs": [
-      "Building Models in R"
-    ]
+    "text": "This is a curated project with the goal of a fully focused deep-dive into learning R. Each section includes resources, practice projects, and learning outcomes."
   },
   {
     "objectID": "shiny/index.html",
@@ -206,6 +118,7 @@
     "section": "",
     "text": "This section is dedicated to interactive web applications built with Shiny, R’s powerful web framework for creating data-driven apps and dashboards.\n\n\n\nUI fundamentals: Building effective user interfaces with Shiny\nReactivity: Understanding Shiny’s reactive programming model\nPerformance: Optimizing Shiny apps for speed and scalability\nModules: Creating reusable components with Shiny modules\nJavaScript integration: Extending Shiny with custom JavaScript\nDeployment: Publishing apps to shinyapps.io, Shiny Server, and RStudio Connect\nAuthentication: Implementing user authentication in Shiny apps\n\n\n\n\n\nMastering Shiny - Hadley Wickham’s comprehensive guide\nEngineering Production-Grade Shiny Apps - Deploying Shiny at scale\nShiny Gallery - Examples and inspiration\nInteractive Web Data Visualization with Plotly & Shiny - Advanced visualizations\nJS4Shiny Field Notes - Add JavaScript to Shiny\n\n\n\n\nThis section will showcase the Shiny apps I develop, along with code snippets and lessons learned.\n\n\n\nAfter working through this section, I should be able to:\n\nBuild effective user interfaces for data-driven web applications\nImplement Shiny’s reactive programming model effectively\nOptimize Shiny apps for improved performance and scalability\nCreate reusable components with Shiny modules\nExtend Shiny applications with custom JavaScript functionality\nDeploy Shiny applications to various hosting platforms\nImplement authentication and authorization in Shiny apps\nCreate professional dashboards that communicate insights effectively",
     "crumbs": [
+      "Shiny",
       "Shiny Apps"
     ]
   },
@@ -216,6 +129,7 @@
     "section": "",
     "text": "UI fundamentals: Building effective user interfaces with Shiny\nReactivity: Understanding Shiny’s reactive programming model\nPerformance: Optimizing Shiny apps for speed and scalability\nModules: Creating reusable components with Shiny modules\nJavaScript integration: Extending Shiny with custom JavaScript\nDeployment: Publishing apps to shinyapps.io, Shiny Server, and RStudio Connect\nAuthentication: Implementing user authentication in Shiny apps",
     "crumbs": [
+      "Shiny",
       "Shiny Apps"
     ]
   },
@@ -226,6 +140,7 @@
     "section": "",
     "text": "Mastering Shiny - Hadley Wickham’s comprehensive guide\nEngineering Production-Grade Shiny Apps - Deploying Shiny at scale\nShiny Gallery - Examples and inspiration\nInteractive Web Data Visualization with Plotly & Shiny - Advanced visualizations\nJS4Shiny Field Notes - Add JavaScript to Shiny",
     "crumbs": [
+      "Shiny",
       "Shiny Apps"
     ]
   },
@@ -236,6 +151,7 @@
     "section": "",
     "text": "This section will showcase the Shiny apps I develop, along with code snippets and lessons learned.",
     "crumbs": [
+      "Shiny",
       "Shiny Apps"
     ]
   },
@@ -246,15 +162,130 @@
     "section": "",
     "text": "After working through this section, I should be able to:\n\nBuild effective user interfaces for data-driven web applications\nImplement Shiny’s reactive programming model effectively\nOptimize Shiny apps for improved performance and scalability\nCreate reusable components with Shiny modules\nExtend Shiny applications with custom JavaScript functionality\nDeploy Shiny applications to various hosting platforms\nImplement authentication and authorization in Shiny apps\nCreate professional dashboards that communicate insights effectively",
     "crumbs": [
+      "Shiny",
       "Shiny Apps"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "R-Development Garden",
+    "objectID": "modelling/index.html",
+    "href": "modelling/index.html",
+    "title": "Building Models in R",
     "section": "",
-    "text": "This is a curated project with the goal of a fully focused deep-dive into learning R. Each section includes resources, practice projects, and learning outcomes."
+    "text": "This section explores statistical modeling, machine learning, and inference techniques in R, covering both classical and modern approaches.\n\n\n\nLinear models: Regression, ANOVA, and their extensions\nGeneralized linear models: Logistic, Poisson regression, and more\nMixed effects models: Analyzing hierarchical and longitudinal data\nBayesian analysis: Using Stan, brms, and Bayesian workflows\nMachine learning: Classification, regression, clustering with tidymodels\nDeep learning: Neural networks with torch and keras\nModel evaluation: Cross-validation, metrics, and model comparison\nInterpretable machine learning: Understanding model predictions\n\n\n\n\n\nStatistical Rethinking (recoded in R) - Bayesian modeling\nRegression and Other Stories - Applied regression with R\nHands-on Machine Learning with R - From preprocessing to modeling\nTidy Modeling with R - Using tidymodels framework\nBayes Rules! - Intro Bayesian modeling with R\n\n\n\n\nI’ll document my modeling projects here, including code examples, visualizations, and performance analyses.\n\n\n\nAfter working through this section, I should be able to:\n\nBuild and interpret various types of linear and generalized linear models\nImplement mixed effects models for hierarchical and longitudinal data\nPerform Bayesian analysis using Stan, brms, and related frameworks\nApply machine learning techniques using the tidymodels ecosystem\nImplement neural networks and deep learning models in R\nProperly evaluate models using cross-validation and appropriate metrics\nInterpret model results to derive meaningful insights\nSelect appropriate modeling approaches for different types of problems",
+    "crumbs": [
+      "Modelling",
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html#key-topics",
+    "href": "modelling/index.html#key-topics",
+    "title": "Building Models in R",
+    "section": "",
+    "text": "Linear models: Regression, ANOVA, and their extensions\nGeneralized linear models: Logistic, Poisson regression, and more\nMixed effects models: Analyzing hierarchical and longitudinal data\nBayesian analysis: Using Stan, brms, and Bayesian workflows\nMachine learning: Classification, regression, clustering with tidymodels\nDeep learning: Neural networks with torch and keras\nModel evaluation: Cross-validation, metrics, and model comparison\nInterpretable machine learning: Understanding model predictions",
+    "crumbs": [
+      "Modelling",
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html#resources",
+    "href": "modelling/index.html#resources",
+    "title": "Building Models in R",
+    "section": "",
+    "text": "Statistical Rethinking (recoded in R) - Bayesian modeling\nRegression and Other Stories - Applied regression with R\nHands-on Machine Learning with R - From preprocessing to modeling\nTidy Modeling with R - Using tidymodels framework\nBayes Rules! - Intro Bayesian modeling with R",
+    "crumbs": [
+      "Modelling",
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html#model-gallery",
+    "href": "modelling/index.html#model-gallery",
+    "title": "Building Models in R",
+    "section": "",
+    "text": "I’ll document my modeling projects here, including code examples, visualizations, and performance analyses.",
+    "crumbs": [
+      "Modelling",
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html#learning-outcomes",
+    "href": "modelling/index.html#learning-outcomes",
+    "title": "Building Models in R",
+    "section": "",
+    "text": "After working through this section, I should be able to:\n\nBuild and interpret various types of linear and generalized linear models\nImplement mixed effects models for hierarchical and longitudinal data\nPerform Bayesian analysis using Stan, brms, and related frameworks\nApply machine learning techniques using the tidymodels ecosystem\nImplement neural networks and deep learning models in R\nProperly evaluate models using cross-validation and appropriate metrics\nInterpret model results to derive meaningful insights\nSelect appropriate modeling approaches for different types of problems",
+    "crumbs": [
+      "Modelling",
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "r-pkgs/index.html",
+    "href": "r-pkgs/index.html",
+    "title": "R Package Development",
+    "section": "",
+    "text": "This section covers the process of creating, documenting, testing, and sharing R packages. Based primarily on R Packages (2nd Edition) by Hadley Wickham and Jenny Bryan.\n\n\n\nPackage structure: Understanding the fundamental components of R packages\nDocumentation: Using roxygen2 for function documentation and vignettes\nTesting: Implementing unit tests with testthat\nDependencies: Managing package dependencies efficiently\nCRAN submission: Preparing packages for CRAN submission\nGitHub integration: Using GitHub for version control and collaboration\nContinuous integration: Setting up CI/CD workflows for R packages\n\n\n\n\n\nR Packages, 2nd Edition - How to write and maintain R packages\nTidyverse Design Guide - Philosophy and patterns for extensibility\nrOpenSci Packages Guide - Best practices for scientific packages\nWriting R Extensions - Official R manual for package authors\n\n\n\n\nI’ll document my package development journey here, including any packages I create.\n\n\n\nAfter working through this section, I should be able to:\n\nCreate well-structured R packages following best practices\nWrite comprehensive function documentation using roxygen2\nImplement effective unit tests to ensure package reliability\nManage package dependencies efficiently\nPrepare packages for submission to CRAN\nUse GitHub for package version control and collaboration\nSet up continuous integration workflows for R packages\nCreate vignettes and other documentation to help users understand my packages",
+    "crumbs": [
+      "Package Dev",
+      "R Package Development"
+    ]
+  },
+  {
+    "objectID": "r-pkgs/index.html#key-topics",
+    "href": "r-pkgs/index.html#key-topics",
+    "title": "R Package Development",
+    "section": "",
+    "text": "Package structure: Understanding the fundamental components of R packages\nDocumentation: Using roxygen2 for function documentation and vignettes\nTesting: Implementing unit tests with testthat\nDependencies: Managing package dependencies efficiently\nCRAN submission: Preparing packages for CRAN submission\nGitHub integration: Using GitHub for version control and collaboration\nContinuous integration: Setting up CI/CD workflows for R packages",
+    "crumbs": [
+      "Package Dev",
+      "R Package Development"
+    ]
+  },
+  {
+    "objectID": "r-pkgs/index.html#resources",
+    "href": "r-pkgs/index.html#resources",
+    "title": "R Package Development",
+    "section": "",
+    "text": "R Packages, 2nd Edition - How to write and maintain R packages\nTidyverse Design Guide - Philosophy and patterns for extensibility\nrOpenSci Packages Guide - Best practices for scientific packages\nWriting R Extensions - Official R manual for package authors",
+    "crumbs": [
+      "Package Dev",
+      "R Package Development"
+    ]
+  },
+  {
+    "objectID": "r-pkgs/index.html#my-package-projects",
+    "href": "r-pkgs/index.html#my-package-projects",
+    "title": "R Package Development",
+    "section": "",
+    "text": "I’ll document my package development journey here, including any packages I create.",
+    "crumbs": [
+      "Package Dev",
+      "R Package Development"
+    ]
+  },
+  {
+    "objectID": "r-pkgs/index.html#learning-outcomes",
+    "href": "r-pkgs/index.html#learning-outcomes",
+    "title": "R Package Development",
+    "section": "",
+    "text": "After working through this section, I should be able to:\n\nCreate well-structured R packages following best practices\nWrite comprehensive function documentation using roxygen2\nImplement effective unit tests to ensure package reliability\nManage package dependencies efficiently\nPrepare packages for submission to CRAN\nUse GitHub for package version control and collaboration\nSet up continuous integration workflows for R packages\nCreate vignettes and other documentation to help users understand my packages",
+    "crumbs": [
+      "Package Dev",
+      "R Package Development"
+    ]
+  },
+  {
+    "objectID": "adv-r/lesson.html",
+    "href": "adv-r/lesson.html",
+    "title": "Lesson 1",
+    "section": "",
+    "text": "Lesson 1\nTest if this works",
+    "crumbs": [
+      "Advanced R",
+      "Lesson 1"
+    ]
   },
   {
     "objectID": "r4ds/index.html",
