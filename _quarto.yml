@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "R Development"
+  sidebar:
+    style: floating
+    contents:
+      - section: "R for Data Science"
+        contents: r4ds
+      - section: "Advanced R"
+        contents: adv-r
+      - section: "Package Dev"
+        contents: r-pkgs
+      - section: "Production Engineering"
+        contents: r-production
+      - section: "Shiny"
+        contents: shiny
+      - section: "Modeling"
+        contents: modelling
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
