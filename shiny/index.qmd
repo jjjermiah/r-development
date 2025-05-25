@@ -1,1 +1,53 @@
+---
+title: "Shiny Apps"
+description: "Building interactive web applications with R Shiny"
+author: "Jermiah Joseph"
+date: last-modified
+categories: [R, Shiny, Web Apps, Interactive]
+toc: true
+---
+
 # Shiny Apps
+
+This section is dedicated to interactive web applications built with Shiny, R's 
+powerful web framework for creating data-driven apps and dashboards.
+
+## Key Topics
+
+- **UI fundamentals:** Building effective user interfaces with Shiny
+- **Reactivity:** Understanding Shiny's reactive programming model
+- **Performance:** Optimizing Shiny apps for speed and scalability
+- **Modules:** Creating reusable components with Shiny modules
+- **JavaScript integration:** Extending Shiny with custom JavaScript
+- **Deployment:** Publishing apps to shinyapps.io, Shiny Server, and RStudio Connect
+- **Authentication:** Implementing user authentication in Shiny apps
+
+## Resources
+
+- [Mastering Shiny](https://mastering-shiny.org/) - Hadley Wickham's comprehensive 
+  guide
+- [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/) - 
+  Deploying Shiny at scale
+- [Shiny Gallery](https://shiny.posit.co/r/gallery/) - Examples and inspiration
+- [Interactive Web Data Visualization with Plotly & Shiny](https://plotly-r.com/) - 
+  Advanced visualizations
+- [JS4Shiny Field Notes](https://connect.thinkr.fr/js4shinyfieldnotes/) - Add 
+  JavaScript to Shiny
+
+## My Shiny Projects
+
+This section will showcase the Shiny apps I develop, along with code snippets and 
+lessons learned.
+
+## Learning Outcomes
+
+After working through this section, I should be able to:
+
+- Build effective user interfaces for data-driven web applications
+- Implement Shiny's reactive programming model effectively
+- Optimize Shiny apps for improved performance and scalability
+- Create reusable components with Shiny modules
+- Extend Shiny applications with custom JavaScript functionality
+- Deploy Shiny applications to various hosting platforms
+- Implement authentication and authorization in Shiny apps
+- Create professional dashboards that communicate insights effectively

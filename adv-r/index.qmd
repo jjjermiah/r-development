@@ -1,1 +1,49 @@
-# welcome
+---
+title: "Advanced R"
+description: "Deep dive into R language internals and programming paradigms"
+author: "Jermiah Joseph"
+date: last-modified
+categories: [R, Advanced Programming, Performance]
+toc: true
+---
+
+# Advanced R
+
+This section is dedicated to more advanced R programming concepts, based primarily 
+on [Hadley Wickham's Advanced R book](https://adv-r.hadley.nz/). Here, I'll be 
+exploring R's language internals, functional programming patterns, metaprogramming, 
+and performance optimization.
+
+## Key Topics
+
+- **Language fundamentals:** Understanding R's unique object and environment systems
+- **Functional programming:** Working with functions as first-class objects  
+- **Object-oriented programming:** Exploring S3, S4, and R6 class systems
+- **Metaprogramming:** Manipulating code as data with non-standard evaluation
+- **Performance optimization:** Profiling, memory management, and code efficiency
+- **Rcpp integration:** Extending R with C++ for performance-critical code
+
+## Resources
+
+- [Advanced R, 2nd Edition](https://adv-r.hadley.nz/) - Hadley Wickham's 
+  definitive guide
+- [Advanced R Solutions](https://advanced-r-solutions.rbind.io/) - Companion with 
+  exercise answers
+- [The R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf) - Quirky 
+  guide to common R traps
+
+## Practice Work
+
+- [Data Wrangling](01-wrangle.html) - Advanced data manipulation techniques
+
+## Learning Outcomes
+
+After working through this section, I should be able to:
+
+- Understand R's unique object and environment systems
+- Apply functional programming patterns to write cleaner, more maintainable code
+- Implement and use different object-oriented programming systems in R (S3, S4, R6)
+- Leverage metaprogramming techniques to solve advanced problems
+- Profile and optimize R code for better performance
+- Extend R with C++ using Rcpp for performance-critical operations
+- Debug complex R code more effectively

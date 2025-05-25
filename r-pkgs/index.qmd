@@ -1,1 +1,52 @@
+---
+title: "R Package Development"
+description: "Creating, documenting, testing, and sharing R packages"
+author: "Jermiah Joseph"
+date: last-modified
+categories: [R, Package Development, Documentation]
+toc: true
+---
+
 # R Package Development
+
+This section covers the process of creating, documenting, testing, and sharing R 
+packages. Based primarily on [R Packages (2nd Edition)](https://r-pkgs.org/) by 
+Hadley Wickham and Jenny Bryan.
+
+## Key Topics
+
+- **Package structure:** Understanding the fundamental components of R packages
+- **Documentation:** Using roxygen2 for function documentation and vignettes
+- **Testing:** Implementing unit tests with testthat
+- **Dependencies:** Managing package dependencies efficiently
+- **CRAN submission:** Preparing packages for CRAN submission
+- **GitHub integration:** Using GitHub for version control and collaboration
+- **Continuous integration:** Setting up CI/CD workflows for R packages
+
+## Resources
+
+- [R Packages, 2nd Edition](https://r-pkgs.org/) - How to write and maintain R 
+  packages
+- [Tidyverse Design Guide](https://design.tidyverse.org/) - Philosophy and 
+  patterns for extensibility
+- [rOpenSci Packages Guide](https://devguide.ropensci.org/) - Best practices for 
+  scientific packages
+- [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html) - 
+  Official R manual for package authors
+
+## My Package Projects
+
+I'll document my package development journey here, including any packages I create.
+
+## Learning Outcomes
+
+After working through this section, I should be able to:
+
+- Create well-structured R packages following best practices
+- Write comprehensive function documentation using roxygen2
+- Implement effective unit tests to ensure package reliability
+- Manage package dependencies efficiently
+- Prepare packages for submission to CRAN
+- Use GitHub for package version control and collaboration
+- Set up continuous integration workflows for R packages
+- Create vignettes and other documentation to help users understand my packages

@@ -5,26 +5,33 @@ project:
     browser: false
 
 website:
-  title: "R Development"
+  title: "R Development" 
+  repo-url: https://github.com/jjjermiah/r-development
+  repo-actions: [edit, source, issue]
   navbar:
     left:
       - text: "Home"
-        file: index.md
+        file: index.qmd
       - sidebar:r4ds
-      - sidebar:adv-r
+      - text: "Advanced R"
+        href: adv-r/index.qmd
+        
+      # - sidebar:adv-r
       - sidebar:r-pkgs
       - sidebar:r-production
       - sidebar:shiny
       - sidebar:modelling
-      
+  
 
   sidebar:
     - id: r4ds
       title: "R for Data Science"
+      href: r4ds/index.qmd
       contents: r4ds
     
     - id: adv-r
       title: "Advanced R"
+
       contents: 
         - adv-r/index.qmd
         - adv-r/01-wrangle.qmd

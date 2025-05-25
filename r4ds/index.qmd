@@ -1,1 +1,51 @@
+---
+title: "R for Data Science"
+description: "Modern data science workflows using the tidyverse"
+author: "Jermiah Joseph"
+date: last-modified
+categories: [R, Data Science, Tidyverse]
+toc: true
+---
+
 # R for Data Science
+
+This section focuses on modern data science workflows in R using the tidyverse 
+collection of packages. Based on the [R for Data Science (2nd Edition)](https://r4ds.hadley.nz/) 
+book by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund.
+
+## Key Topics
+
+- **Data transformation:** Using dplyr for manipulating tabular data
+- **Data visualization:** Creating effective graphics with ggplot2
+- **Data import:** Reading various file formats into R
+- **Tidy data:** Structuring data effectively with tidyr
+- **Exploratory data analysis:** Iterative process of visualization and transformation
+- **Communication:** Sharing results through reports, dashboards, and visualizations
+
+## Resources
+
+- [R for Data Science, 2nd Edition](https://r4ds.hadley.nz/) - Modern R workflows 
+  using tidyverse
+- [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/) - 
+  Introduction from Roger Peng
+- [ModernDive](https://moderndive.com/) - Statistical inference via data science
+- [Hands-On Programming with R](https://rstudio-education.github.io/hopr/) - 
+  Learning R through building games
+
+## Practice Projects
+
+I'll be adding my practice projects and code examples in this section as I work 
+through the book.
+
+## Learning Outcomes
+
+After working through this section, I should be able to:
+
+- Transform and manipulate tabular data efficiently using dplyr
+- Create effective data visualizations with ggplot2
+- Import data from various file formats into R
+- Structure data properly using tidy data principles
+- Conduct thorough exploratory data analysis
+- Communicate findings through reports and visualizations
+- Apply data wrangling workflows to real-world datasets
+- Build reproducible data analysis pipelines

@@ -1,7 +1,5 @@
-# R-Development Garden
-
-This is a curated project with the goal of a fully focussed deep-dive
-into learning R.
+This is a curated project with the goal of a fully focused deep-dive
+into learning R. Each section includes resources, practice projects, and learning outcomes.
 
 ---
 
@@ -159,8 +157,3 @@ Shell and CLI skills for working alongside R.
 
 - **Data Science at the Command Line, 2nd Ed.**  
   https://www.datascienceatthecommandline.com/2e/index.html  
-
----
-
-If you want, I can generate this as a live Quarto site or scaffold it into your `r-learning/` repo.
-Let me know.

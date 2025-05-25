@@ -1,1 +1,51 @@
-# R in production
+---
+title: "R in Production"
+description: "Strategies and best practices for using R in production environments"
+author: "Jermiah Joseph"
+date: last-modified
+categories: [R, Production, Deployment]
+toc: true
+---
+
+# R in Production
+
+This section explores strategies and best practices for using R in production 
+environments, focusing on reproducibility, deployment, and scalability.
+
+## Key Topics
+
+- **Reproducible research:** Creating reproducible analyses and reports
+- **Docker integration:** Containerizing R applications for consistent deployment
+- **Performance optimization:** Scaling R for larger datasets and computations
+- **Workflow automation:** Building data pipelines with targets and drake
+- **Cloud deployment:** Running R in cloud environments (AWS, GCP, Azure)
+- **API development:** Creating APIs with plumber and FastAPI
+- **Database integration:** Efficient database connections and queries
+
+## Resources
+
+- [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/) - Best
+  practices for production Shiny apps
+- [Efficient R Programming](https://csgillespie.github.io/efficientR/) - 
+  Performance optimization
+- [targets](https://books.ropensci.org/targets/) - Robust reproducible data pipelines
+- [drake](https://books.ropensci.org/drake/) - Declarative pipeline toolkit
+- [R Infrastructure](https://solutions.rstudio.com/r/infrastructure/) - RStudio's 
+  guide to production infrastructure
+
+## Production Case Studies
+
+This section will include examples of deploying R code in production environments
+and lessons learned.
+
+## Learning Outcomes
+
+After working through this section, I should be able to:
+
+- Build reproducible R workflows that can run consistently across different environments
+- Containerize R applications using Docker for deployment
+- Optimize R code for better performance with large datasets
+- Create automated data pipelines using targets or drake
+- Deploy R applications to cloud environments
+- Develop APIs that expose R functionality to other applications
+- Establish efficient connections between R and various database systems

@@ -1,0 +1,23 @@
+---
+title: "R-Development Garden"
+description: "A comprehensive journey into R programming, packages, and production-ready applications"
+format: html
+
+listing: 
+  type: default
+  contents:
+    - adv-r
+    - r4ds
+    - r-pkgs
+    - r-production
+    - modelling
+    - shiny
+
+---
+
+# Welcome
+
+This is a curated project with the goal of a fully focused deep-dive
+into learning R. Each section includes resources, practice projects, and learning outcomes.
+
+## Contents

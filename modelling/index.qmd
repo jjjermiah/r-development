@@ -1,1 +1,53 @@
-# Building models in R
+---
+title: "Building Models in R"
+description: "Statistical modeling and machine learning approaches in R"
+author: "Jermiah Joseph"
+date: last-modified
+categories: [R, Modeling, Statistics, Machine Learning]
+toc: true
+---
+
+# Building Models in R
+
+This section explores statistical modeling, machine learning, and inference 
+techniques in R, covering both classical and modern approaches.
+
+## Key Topics
+
+- **Linear models:** Regression, ANOVA, and their extensions
+- **Generalized linear models:** Logistic, Poisson regression, and more
+- **Mixed effects models:** Analyzing hierarchical and longitudinal data
+- **Bayesian analysis:** Using Stan, brms, and Bayesian workflows
+- **Machine learning:** Classification, regression, clustering with tidymodels
+- **Deep learning:** Neural networks with torch and keras
+- **Model evaluation:** Cross-validation, metrics, and model comparison
+- **Interpretable machine learning:** Understanding model predictions
+
+## Resources
+
+- [Statistical Rethinking (recoded in R)](https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/) - 
+  Bayesian modeling
+- [Regression and Other Stories](https://avehtari.github.io/ROS-Examples/) - 
+  Applied regression with R
+- [Hands-on Machine Learning with R](https://bradleyboehmke.github.io/HOML/) - 
+  From preprocessing to modeling
+- [Tidy Modeling with R](https://www.tmwr.org/) - Using tidymodels framework
+- [Bayes Rules!](https://www.bayesrulesbook.com/) - Intro Bayesian modeling with R
+
+## Model Gallery
+
+I'll document my modeling projects here, including code examples, visualizations, 
+and performance analyses.
+
+## Learning Outcomes
+
+After working through this section, I should be able to:
+
+- Build and interpret various types of linear and generalized linear models
+- Implement mixed effects models for hierarchical and longitudinal data
+- Perform Bayesian analysis using Stan, brms, and related frameworks
+- Apply machine learning techniques using the tidymodels ecosystem
+- Implement neural networks and deep learning models in R
+- Properly evaluate models using cross-validation and appropriate metrics
+- Interpret model results to derive meaningful insights
+- Select appropriate modeling approaches for different types of problems
