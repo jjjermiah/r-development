@@ -12,16 +12,24 @@ website:
     left:
       - text: "Home"
         file: index.qmd
-      - sidebar:r4ds
+
       - text: "Advanced R"
         href: adv-r/index.qmd
-        
-      # - sidebar:adv-r
-      - sidebar:r-pkgs
-      - sidebar:r-production
-      - sidebar:shiny
-      - sidebar:modelling
-  
+      
+      - text: "R for Data Science"
+        href: r4ds/index.qmd
+
+      - text: "Package Dev"
+        href: r-pkgs/index.qmd
+
+      - text: "Production Engineering"
+        href: r-production/index.qmd
+
+      - text: "Shiny"
+        href: shiny/index.qmd
+
+      - text: "Modelling"
+        href: modelling/index.qmd
 
   sidebar:
     - id: r4ds
@@ -31,10 +39,7 @@ website:
     
     - id: adv-r
       title: "Advanced R"
-
-      contents: 
-        - adv-r/index.qmd
-        - adv-r/01-wrangle.qmd
+      contents: adv-r
     
     - id: r-pkgs
       title: "Package Dev"
