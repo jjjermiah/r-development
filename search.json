@@ -2,132 +2,101 @@
   {
     "objectID": "r-production/index.html",
     "href": "r-production/index.html",
-    "title": "R in production",
+    "title": "R in Production",
     "section": "",
-    "text": "R in production",
+    "text": "This section explores strategies and best practices for using R in production environments, focusing on reproducibility, deployment, and scalability.\n\n\n\nReproducible research: Creating reproducible analyses and reports\nDocker integration: Containerizing R applications for consistent deployment\nPerformance optimization: Scaling R for larger datasets and computations\nWorkflow automation: Building data pipelines with targets and drake\nCloud deployment: Running R in cloud environments (AWS, GCP, Azure)\nAPI development: Creating APIs with plumber and FastAPI\nDatabase integration: Efficient database connections and queries\n\n\n\n\n\nEngineering Production-Grade Shiny Apps - Best practices for production Shiny apps\nEfficient R Programming - Performance optimization\ntargets - Robust reproducible data pipelines\ndrake - Declarative pipeline toolkit\nR Infrastructure - RStudio’s guide to production infrastructure\n\n\n\n\nThis section will include examples of deploying R code in production environments and lessons learned.\n\n\n\nAfter working through this section, I should be able to:\n\nBuild reproducible R workflows that can run consistently across different environments\nContainerize R applications using Docker for deployment\nOptimize R code for better performance with large datasets\nCreate automated data pipelines using targets or drake\nDeploy R applications to cloud environments\nDevelop APIs that expose R functionality to other applications\nEstablish efficient connections between R and various database systems",
     "crumbs": [
-      "R in production"
+      "R in Production"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "R-Development Garden",
+    "objectID": "r-production/index.html#key-topics",
+    "href": "r-production/index.html#key-topics",
+    "title": "R in Production",
     "section": "",
-    "text": "This is a curated project with the goal of a fully focussed deep-dive into learning R.\n\n\n\nFundamentals and best practices for writing robust and readable R code.\n\nR for Data Science, 2nd Ed. – Modern R workflows using tidyverse\nhttps://r4ds.hadley.nz\n\nR Programming for Data Science – Intro from Roger Peng\nhttps://bookdown.org/rdpeng/rprogdatascience/\n\nHands-On Programming with R – Learn R through building games\nhttps://rstudio-education.github.io/hopr/\n\nEfficient R Programming – Profiling, memory, speed\nhttps://csgillespie.github.io/efficientR/\n\nAdvanced R, 2nd Ed. – Language internals and functional patterns\nhttps://adv-r.hadley.nz\n\nAdvanced R Solutions – Companion answers to exercises\nhttps://advanced-r-solutions.rbind.io\n\n\n\n\n\nAuthoring clean, testable, production-grade packages.\n\nR Packages, 2nd Ed. – How to write and maintain R packages\nhttps://r-pkgs.org\n\nTidyverse Design Guide – Philosophy and patterns for extensibility\nhttps://design.tidyverse.org\n\n\n\n\n\nCreating effective visual communication with ggplot2 and beyond.\n\nggplot2, 3rd Ed. – The definitive book\nhttps://ggplot2-book.org\n\nR Graphics Cookbook – Recipe-based graphics guide\nhttps://r-graphics.org\n\nFundamentals of Data Visualization – Design-focused guide\nhttps://clauswilke.com/dataviz/\n\n\n\n\n\nInteractive dashboards and production deployment.\n\nMastering Shiny – Build full Shiny apps\nhttps://mastering-shiny.org\n\nEngineering Production-Grade Shiny – Deploying Shiny at scale\nhttps://engineering-shiny.org\n\nInteractive Web Data Visualization with Plotly & Shiny\nhttps://plotly-r.com\n\nJS4Shiny Field Notes – Add JavaScript to Shiny\nhttps://connect.thinkr.fr/js4shinyfieldnotes/\n\n\n\n\n\nBayesian, regression, and classical inference workflows.\n\nStatistical Inference via Data Science (ModernDive)\nhttps://moderndive.com\n\nRegression and Other Stories – Applied regression with R\nhttps://avehtari.github.io/ROS-Examples/\n\nBayes Rules! – Intro Bayesian modeling with R\nhttps://www.bayesrulesbook.com/\n\nStatistical Rethinking (recode in R)\nhttps://bookdown.org/ajkurz/Statistical_Rethinking_recoded/\n\nHandbook of Regression in People Analytics\nhttp://peopleanalytics-regression-book.org/index.html\n\n\n\n\n\nReproducibility and reporting tools with Quarto, R Markdown, Bookdown.\n\nR Markdown: The Definitive Guide\nhttps://bookdown.org/yihui/rmarkdown/\n\nR Markdown Cookbook\nhttps://bookdown.org/yihui/rmarkdown-cookbook/\n\nBookdown – Author books in R\nhttps://bookdown.org/yihui/bookdown/\n\nBlogdown – Create static blogs with R Markdown\nhttps://bookdown.org/yihui/blogdown/\n\n\n\n\n\nOptimize R code and interface with compiled code.\n\nSeamless R and C++ with Rcpp\nhttps://rcpp.org/book/\n\nAdvanced R: Rcpp chapter\nhttps://adv-r.hadley.nz/rcpp.html\n\nThe R Inferno – Quirky guide to common R traps\nhttp://www.burns-stat.com/pages/Tutor/R_inferno.pdf\n\n\n\n\n\nModel building and modern ML frameworks in R.\n\nHands-on Machine Learning with R – From preprocessing to modeling\nhttps://bradleyboehmke.github.io/HOML/\nhttps://koalaverse.github.io/homlr/\n\nTidy Modeling with R – Using tidymodels\nhttps://www.tmwr.org\n\n\n\n\n\nCreate reproducible, maintainable workflows.\n\nReproducible Research with R and RStudio\nhttps://bookdown.org/rdpeng/RProgDA/\n\nTargets – Robust reproducible R pipelines\nhttps://books.ropensci.org/targets/\n\ndrake – Declarative pipeline toolkit\nhttps://books.ropensci.org/drake/\n\n\n\n\n\nWorking with textual data in the tidyverse.\n\nText Mining with R – Tidy approach to unstructured data\nhttps://www.tidytextmining.com\n\n\n\n\n\nMore technical or graduate-level material.\n\nR for Graduate Students\nhttps://bookdown.org/yih_huynh/Guide-to-R-Book/\n\nDive into Deep Learning – Deep learning foundations (MxNet, PyTorch)\nhttps://d2l.ai\n\n\n\n\n\nShell and CLI skills for working alongside R.\n\nData Science at the Command Line, 2nd Ed.\nhttps://www.datascienceatthecommandline.com/2e/index.html\n\n\nIf you want, I can generate this as a live Quarto site or scaffold it into your r-learning/ repo. Let me know."
-  },
-  {
-    "objectID": "index.html#core-r-programming",
-    "href": "index.html#core-r-programming",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Fundamentals and best practices for writing robust and readable R code.\n\nR for Data Science, 2nd Ed. – Modern R workflows using tidyverse\nhttps://r4ds.hadley.nz\n\nR Programming for Data Science – Intro from Roger Peng\nhttps://bookdown.org/rdpeng/rprogdatascience/\n\nHands-On Programming with R – Learn R through building games\nhttps://rstudio-education.github.io/hopr/\n\nEfficient R Programming – Profiling, memory, speed\nhttps://csgillespie.github.io/efficientR/\n\nAdvanced R, 2nd Ed. – Language internals and functional patterns\nhttps://adv-r.hadley.nz\n\nAdvanced R Solutions – Companion answers to exercises\nhttps://advanced-r-solutions.rbind.io"
-  },
-  {
-    "objectID": "index.html#package-development",
-    "href": "index.html#package-development",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Authoring clean, testable, production-grade packages.\n\nR Packages, 2nd Ed. – How to write and maintain R packages\nhttps://r-pkgs.org\n\nTidyverse Design Guide – Philosophy and patterns for extensibility\nhttps://design.tidyverse.org"
-  },
-  {
-    "objectID": "index.html#data-visualization",
-    "href": "index.html#data-visualization",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Creating effective visual communication with ggplot2 and beyond.\n\nggplot2, 3rd Ed. – The definitive book\nhttps://ggplot2-book.org\n\nR Graphics Cookbook – Recipe-based graphics guide\nhttps://r-graphics.org\n\nFundamentals of Data Visualization – Design-focused guide\nhttps://clauswilke.com/dataviz/"
-  },
-  {
-    "objectID": "index.html#web-applications-shiny",
-    "href": "index.html#web-applications-shiny",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Interactive dashboards and production deployment.\n\nMastering Shiny – Build full Shiny apps\nhttps://mastering-shiny.org\n\nEngineering Production-Grade Shiny – Deploying Shiny at scale\nhttps://engineering-shiny.org\n\nInteractive Web Data Visualization with Plotly & Shiny\nhttps://plotly-r.com\n\nJS4Shiny Field Notes – Add JavaScript to Shiny\nhttps://connect.thinkr.fr/js4shinyfieldnotes/"
-  },
-  {
-    "objectID": "index.html#statistical-inference-modeling",
-    "href": "index.html#statistical-inference-modeling",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Bayesian, regression, and classical inference workflows.\n\nStatistical Inference via Data Science (ModernDive)\nhttps://moderndive.com\n\nRegression and Other Stories – Applied regression with R\nhttps://avehtari.github.io/ROS-Examples/\n\nBayes Rules! – Intro Bayesian modeling with R\nhttps://www.bayesrulesbook.com/\n\nStatistical Rethinking (recode in R)\nhttps://bookdown.org/ajkurz/Statistical_Rethinking_recoded/\n\nHandbook of Regression in People Analytics\nhttp://peopleanalytics-regression-book.org/index.html"
-  },
-  {
-    "objectID": "index.html#literate-programming-authoring",
-    "href": "index.html#literate-programming-authoring",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Reproducibility and reporting tools with Quarto, R Markdown, Bookdown.\n\nR Markdown: The Definitive Guide\nhttps://bookdown.org/yihui/rmarkdown/\n\nR Markdown Cookbook\nhttps://bookdown.org/yihui/rmarkdown-cookbook/\n\nBookdown – Author books in R\nhttps://bookdown.org/yihui/bookdown/\n\nBlogdown – Create static blogs with R Markdown\nhttps://bookdown.org/yihui/blogdown/"
-  },
-  {
-    "objectID": "index.html#high-performance-c-integration",
-    "href": "index.html#high-performance-c-integration",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Optimize R code and interface with compiled code.\n\nSeamless R and C++ with Rcpp\nhttps://rcpp.org/book/\n\nAdvanced R: Rcpp chapter\nhttps://adv-r.hadley.nz/rcpp.html\n\nThe R Inferno – Quirky guide to common R traps\nhttp://www.burns-stat.com/pages/Tutor/R_inferno.pdf"
-  },
-  {
-    "objectID": "index.html#machine-learning",
-    "href": "index.html#machine-learning",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Model building and modern ML frameworks in R.\n\nHands-on Machine Learning with R – From preprocessing to modeling\nhttps://bradleyboehmke.github.io/HOML/\nhttps://koalaverse.github.io/homlr/\n\nTidy Modeling with R – Using tidymodels\nhttps://www.tmwr.org"
-  },
-  {
-    "objectID": "index.html#pipelines-reproducibility",
-    "href": "index.html#pipelines-reproducibility",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Create reproducible, maintainable workflows.\n\nReproducible Research with R and RStudio\nhttps://bookdown.org/rdpeng/RProgDA/\n\nTargets – Robust reproducible R pipelines\nhttps://books.ropensci.org/targets/\n\ndrake – Declarative pipeline toolkit\nhttps://books.ropensci.org/drake/"
-  },
-  {
-    "objectID": "index.html#text-mining-nlp",
-    "href": "index.html#text-mining-nlp",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Working with textual data in the tidyverse.\n\nText Mining with R – Tidy approach to unstructured data\nhttps://www.tidytextmining.com"
-  },
-  {
-    "objectID": "index.html#academic-level-resources",
-    "href": "index.html#academic-level-resources",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "More technical or graduate-level material.\n\nR for Graduate Students\nhttps://bookdown.org/yih_huynh/Guide-to-R-Book/\n\nDive into Deep Learning – Deep learning foundations (MxNet, PyTorch)\nhttps://d2l.ai"
-  },
-  {
-    "objectID": "index.html#command-line-efficiency",
-    "href": "index.html#command-line-efficiency",
-    "title": "R-Development Garden",
-    "section": "",
-    "text": "Shell and CLI skills for working alongside R.\n\nData Science at the Command Line, 2nd Ed.\nhttps://www.datascienceatthecommandline.com/2e/index.html\n\n\nIf you want, I can generate this as a live Quarto site or scaffold it into your r-learning/ repo. Let me know."
-  },
-  {
-    "objectID": "adv-r/01-wrangle.html",
-    "href": "adv-r/01-wrangle.html",
-    "title": "hi",
-    "section": "",
-    "text": "hi",
+    "text": "Reproducible research: Creating reproducible analyses and reports\nDocker integration: Containerizing R applications for consistent deployment\nPerformance optimization: Scaling R for larger datasets and computations\nWorkflow automation: Building data pipelines with targets and drake\nCloud deployment: Running R in cloud environments (AWS, GCP, Azure)\nAPI development: Creating APIs with plumber and FastAPI\nDatabase integration: Efficient database connections and queries",
     "crumbs": [
-      "hi"
+      "R in Production"
     ]
   },
   {
-    "objectID": "shiny/index.html",
-    "href": "shiny/index.html",
-    "title": "Shiny Apps",
+    "objectID": "r-production/index.html#resources",
+    "href": "r-production/index.html#resources",
+    "title": "R in Production",
     "section": "",
-    "text": "Shiny Apps",
+    "text": "Engineering Production-Grade Shiny Apps - Best practices for production Shiny apps\nEfficient R Programming - Performance optimization\ntargets - Robust reproducible data pipelines\ndrake - Declarative pipeline toolkit\nR Infrastructure - RStudio’s guide to production infrastructure",
     "crumbs": [
-      "Shiny Apps"
+      "R in Production"
     ]
   },
   {
-    "objectID": "modelling/index.html",
-    "href": "modelling/index.html",
-    "title": "Building models in R",
+    "objectID": "r-production/index.html#production-case-studies",
+    "href": "r-production/index.html#production-case-studies",
+    "title": "R in Production",
     "section": "",
-    "text": "Building models in R",
+    "text": "This section will include examples of deploying R code in production environments and lessons learned.",
     "crumbs": [
-      "Building models in R"
+      "R in Production"
+    ]
+  },
+  {
+    "objectID": "r-production/index.html#learning-outcomes",
+    "href": "r-production/index.html#learning-outcomes",
+    "title": "R in Production",
+    "section": "",
+    "text": "After working through this section, I should be able to:\n\nBuild reproducible R workflows that can run consistently across different environments\nContainerize R applications using Docker for deployment\nOptimize R code for better performance with large datasets\nCreate automated data pipelines using targets or drake\nDeploy R applications to cloud environments\nDevelop APIs that expose R functionality to other applications\nEstablish efficient connections between R and various database systems",
+    "crumbs": [
+      "R in Production"
+    ]
+  },
+  {
+    "objectID": "adv-r/index.html",
+    "href": "adv-r/index.html",
+    "title": "Advanced R",
+    "section": "",
+    "text": "This section is dedicated to more advanced R programming concepts, based primarily on Hadley Wickham’s Advanced R book. Here, I’ll be exploring R’s language internals, functional programming patterns, metaprogramming, and performance optimization.\n\n\n\nLanguage fundamentals: Understanding R’s unique object and environment systems\nFunctional programming: Working with functions as first-class objects\n\nObject-oriented programming: Exploring S3, S4, and R6 class systems\nMetaprogramming: Manipulating code as data with non-standard evaluation\nPerformance optimization: Profiling, memory management, and code efficiency\nRcpp integration: Extending R with C++ for performance-critical code\n\n\n\n\n\nAdvanced R, 2nd Edition - Hadley Wickham’s definitive guide\nAdvanced R Solutions - Companion with exercise answers\nThe R Inferno - Quirky guide to common R traps\n\n\n\n\n\nData Wrangling - Advanced data manipulation techniques\n\n\n\n\nAfter working through this section, I should be able to:\n\nUnderstand R’s unique object and environment systems\nApply functional programming patterns to write cleaner, more maintainable code\nImplement and use different object-oriented programming systems in R (S3, S4, R6)\nLeverage metaprogramming techniques to solve advanced problems\nProfile and optimize R code for better performance\nExtend R with C++ using Rcpp for performance-critical operations\nDebug complex R code more effectively",
+    "crumbs": [
+      "Advanced R"
+    ]
+  },
+  {
+    "objectID": "adv-r/index.html#key-topics",
+    "href": "adv-r/index.html#key-topics",
+    "title": "Advanced R",
+    "section": "",
+    "text": "Language fundamentals: Understanding R’s unique object and environment systems\nFunctional programming: Working with functions as first-class objects\n\nObject-oriented programming: Exploring S3, S4, and R6 class systems\nMetaprogramming: Manipulating code as data with non-standard evaluation\nPerformance optimization: Profiling, memory management, and code efficiency\nRcpp integration: Extending R with C++ for performance-critical code",
+    "crumbs": [
+      "Advanced R"
+    ]
+  },
+  {
+    "objectID": "adv-r/index.html#resources",
+    "href": "adv-r/index.html#resources",
+    "title": "Advanced R",
+    "section": "",
+    "text": "Advanced R, 2nd Edition - Hadley Wickham’s definitive guide\nAdvanced R Solutions - Companion with exercise answers\nThe R Inferno - Quirky guide to common R traps",
+    "crumbs": [
+      "Advanced R"
+    ]
+  },
+  {
+    "objectID": "adv-r/index.html#practice-work",
+    "href": "adv-r/index.html#practice-work",
+    "title": "Advanced R",
+    "section": "",
+    "text": "Data Wrangling - Advanced data manipulation techniques",
+    "crumbs": [
+      "Advanced R"
+    ]
+  },
+  {
+    "objectID": "adv-r/index.html#learning-outcomes",
+    "href": "adv-r/index.html#learning-outcomes",
+    "title": "Advanced R",
+    "section": "",
+    "text": "After working through this section, I should be able to:\n\nUnderstand R’s unique object and environment systems\nApply functional programming patterns to write cleaner, more maintainable code\nImplement and use different object-oriented programming systems in R (S3, S4, R6)\nLeverage metaprogramming techniques to solve advanced problems\nProfile and optimize R code for better performance\nExtend R with C++ using Rcpp for performance-critical operations\nDebug complex R code more effectively",
+    "crumbs": [
+      "Advanced R"
     ]
   },
   {
@@ -135,27 +104,204 @@
     "href": "r-pkgs/index.html",
     "title": "R Package Development",
     "section": "",
-    "text": "R Package Development",
+    "text": "This section covers the process of creating, documenting, testing, and sharing R packages. Based primarily on R Packages (2nd Edition) by Hadley Wickham and Jenny Bryan.\n\n\n\nPackage structure: Understanding the fundamental components of R packages\nDocumentation: Using roxygen2 for function documentation and vignettes\nTesting: Implementing unit tests with testthat\nDependencies: Managing package dependencies efficiently\nCRAN submission: Preparing packages for CRAN submission\nGitHub integration: Using GitHub for version control and collaboration\nContinuous integration: Setting up CI/CD workflows for R packages\n\n\n\n\n\nR Packages, 2nd Edition - How to write and maintain R packages\nTidyverse Design Guide - Philosophy and patterns for extensibility\nrOpenSci Packages Guide - Best practices for scientific packages\nWriting R Extensions - Official R manual for package authors\n\n\n\n\nI’ll document my package development journey here, including any packages I create.\n\n\n\nAfter working through this section, I should be able to:\n\nCreate well-structured R packages following best practices\nWrite comprehensive function documentation using roxygen2\nImplement effective unit tests to ensure package reliability\nManage package dependencies efficiently\nPrepare packages for submission to CRAN\nUse GitHub for package version control and collaboration\nSet up continuous integration workflows for R packages\nCreate vignettes and other documentation to help users understand my packages",
     "crumbs": [
       "R Package Development"
     ]
   },
   {
-    "objectID": "adv-r/index.html",
-    "href": "adv-r/index.html",
-    "title": "welcome",
+    "objectID": "r-pkgs/index.html#key-topics",
+    "href": "r-pkgs/index.html#key-topics",
+    "title": "R Package Development",
     "section": "",
-    "text": "welcome",
+    "text": "Package structure: Understanding the fundamental components of R packages\nDocumentation: Using roxygen2 for function documentation and vignettes\nTesting: Implementing unit tests with testthat\nDependencies: Managing package dependencies efficiently\nCRAN submission: Preparing packages for CRAN submission\nGitHub integration: Using GitHub for version control and collaboration\nContinuous integration: Setting up CI/CD workflows for R packages",
     "crumbs": [
-      "welcome"
+      "R Package Development"
     ]
+  },
+  {
+    "objectID": "r-pkgs/index.html#resources",
+    "href": "r-pkgs/index.html#resources",
+    "title": "R Package Development",
+    "section": "",
+    "text": "R Packages, 2nd Edition - How to write and maintain R packages\nTidyverse Design Guide - Philosophy and patterns for extensibility\nrOpenSci Packages Guide - Best practices for scientific packages\nWriting R Extensions - Official R manual for package authors",
+    "crumbs": [
+      "R Package Development"
+    ]
+  },
+  {
+    "objectID": "r-pkgs/index.html#my-package-projects",
+    "href": "r-pkgs/index.html#my-package-projects",
+    "title": "R Package Development",
+    "section": "",
+    "text": "I’ll document my package development journey here, including any packages I create.",
+    "crumbs": [
+      "R Package Development"
+    ]
+  },
+  {
+    "objectID": "r-pkgs/index.html#learning-outcomes",
+    "href": "r-pkgs/index.html#learning-outcomes",
+    "title": "R Package Development",
+    "section": "",
+    "text": "After working through this section, I should be able to:\n\nCreate well-structured R packages following best practices\nWrite comprehensive function documentation using roxygen2\nImplement effective unit tests to ensure package reliability\nManage package dependencies efficiently\nPrepare packages for submission to CRAN\nUse GitHub for package version control and collaboration\nSet up continuous integration workflows for R packages\nCreate vignettes and other documentation to help users understand my packages",
+    "crumbs": [
+      "R Package Development"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html",
+    "href": "modelling/index.html",
+    "title": "Building Models in R",
+    "section": "",
+    "text": "This section explores statistical modeling, machine learning, and inference techniques in R, covering both classical and modern approaches.\n\n\n\nLinear models: Regression, ANOVA, and their extensions\nGeneralized linear models: Logistic, Poisson regression, and more\nMixed effects models: Analyzing hierarchical and longitudinal data\nBayesian analysis: Using Stan, brms, and Bayesian workflows\nMachine learning: Classification, regression, clustering with tidymodels\nDeep learning: Neural networks with torch and keras\nModel evaluation: Cross-validation, metrics, and model comparison\nInterpretable machine learning: Understanding model predictions\n\n\n\n\n\nStatistical Rethinking (recoded in R) - Bayesian modeling\nRegression and Other Stories - Applied regression with R\nHands-on Machine Learning with R - From preprocessing to modeling\nTidy Modeling with R - Using tidymodels framework\nBayes Rules! - Intro Bayesian modeling with R\n\n\n\n\nI’ll document my modeling projects here, including code examples, visualizations, and performance analyses.\n\n\n\nAfter working through this section, I should be able to:\n\nBuild and interpret various types of linear and generalized linear models\nImplement mixed effects models for hierarchical and longitudinal data\nPerform Bayesian analysis using Stan, brms, and related frameworks\nApply machine learning techniques using the tidymodels ecosystem\nImplement neural networks and deep learning models in R\nProperly evaluate models using cross-validation and appropriate metrics\nInterpret model results to derive meaningful insights\nSelect appropriate modeling approaches for different types of problems",
+    "crumbs": [
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html#key-topics",
+    "href": "modelling/index.html#key-topics",
+    "title": "Building Models in R",
+    "section": "",
+    "text": "Linear models: Regression, ANOVA, and their extensions\nGeneralized linear models: Logistic, Poisson regression, and more\nMixed effects models: Analyzing hierarchical and longitudinal data\nBayesian analysis: Using Stan, brms, and Bayesian workflows\nMachine learning: Classification, regression, clustering with tidymodels\nDeep learning: Neural networks with torch and keras\nModel evaluation: Cross-validation, metrics, and model comparison\nInterpretable machine learning: Understanding model predictions",
+    "crumbs": [
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html#resources",
+    "href": "modelling/index.html#resources",
+    "title": "Building Models in R",
+    "section": "",
+    "text": "Statistical Rethinking (recoded in R) - Bayesian modeling\nRegression and Other Stories - Applied regression with R\nHands-on Machine Learning with R - From preprocessing to modeling\nTidy Modeling with R - Using tidymodels framework\nBayes Rules! - Intro Bayesian modeling with R",
+    "crumbs": [
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html#model-gallery",
+    "href": "modelling/index.html#model-gallery",
+    "title": "Building Models in R",
+    "section": "",
+    "text": "I’ll document my modeling projects here, including code examples, visualizations, and performance analyses.",
+    "crumbs": [
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "modelling/index.html#learning-outcomes",
+    "href": "modelling/index.html#learning-outcomes",
+    "title": "Building Models in R",
+    "section": "",
+    "text": "After working through this section, I should be able to:\n\nBuild and interpret various types of linear and generalized linear models\nImplement mixed effects models for hierarchical and longitudinal data\nPerform Bayesian analysis using Stan, brms, and related frameworks\nApply machine learning techniques using the tidymodels ecosystem\nImplement neural networks and deep learning models in R\nProperly evaluate models using cross-validation and appropriate metrics\nInterpret model results to derive meaningful insights\nSelect appropriate modeling approaches for different types of problems",
+    "crumbs": [
+      "Building Models in R"
+    ]
+  },
+  {
+    "objectID": "shiny/index.html",
+    "href": "shiny/index.html",
+    "title": "Shiny Apps",
+    "section": "",
+    "text": "This section is dedicated to interactive web applications built with Shiny, R’s powerful web framework for creating data-driven apps and dashboards.\n\n\n\nUI fundamentals: Building effective user interfaces with Shiny\nReactivity: Understanding Shiny’s reactive programming model\nPerformance: Optimizing Shiny apps for speed and scalability\nModules: Creating reusable components with Shiny modules\nJavaScript integration: Extending Shiny with custom JavaScript\nDeployment: Publishing apps to shinyapps.io, Shiny Server, and RStudio Connect\nAuthentication: Implementing user authentication in Shiny apps\n\n\n\n\n\nMastering Shiny - Hadley Wickham’s comprehensive guide\nEngineering Production-Grade Shiny Apps - Deploying Shiny at scale\nShiny Gallery - Examples and inspiration\nInteractive Web Data Visualization with Plotly & Shiny - Advanced visualizations\nJS4Shiny Field Notes - Add JavaScript to Shiny\n\n\n\n\nThis section will showcase the Shiny apps I develop, along with code snippets and lessons learned.\n\n\n\nAfter working through this section, I should be able to:\n\nBuild effective user interfaces for data-driven web applications\nImplement Shiny’s reactive programming model effectively\nOptimize Shiny apps for improved performance and scalability\nCreate reusable components with Shiny modules\nExtend Shiny applications with custom JavaScript functionality\nDeploy Shiny applications to various hosting platforms\nImplement authentication and authorization in Shiny apps\nCreate professional dashboards that communicate insights effectively",
+    "crumbs": [
+      "Shiny Apps"
+    ]
+  },
+  {
+    "objectID": "shiny/index.html#key-topics",
+    "href": "shiny/index.html#key-topics",
+    "title": "Shiny Apps",
+    "section": "",
+    "text": "UI fundamentals: Building effective user interfaces with Shiny\nReactivity: Understanding Shiny’s reactive programming model\nPerformance: Optimizing Shiny apps for speed and scalability\nModules: Creating reusable components with Shiny modules\nJavaScript integration: Extending Shiny with custom JavaScript\nDeployment: Publishing apps to shinyapps.io, Shiny Server, and RStudio Connect\nAuthentication: Implementing user authentication in Shiny apps",
+    "crumbs": [
+      "Shiny Apps"
+    ]
+  },
+  {
+    "objectID": "shiny/index.html#resources",
+    "href": "shiny/index.html#resources",
+    "title": "Shiny Apps",
+    "section": "",
+    "text": "Mastering Shiny - Hadley Wickham’s comprehensive guide\nEngineering Production-Grade Shiny Apps - Deploying Shiny at scale\nShiny Gallery - Examples and inspiration\nInteractive Web Data Visualization with Plotly & Shiny - Advanced visualizations\nJS4Shiny Field Notes - Add JavaScript to Shiny",
+    "crumbs": [
+      "Shiny Apps"
+    ]
+  },
+  {
+    "objectID": "shiny/index.html#my-shiny-projects",
+    "href": "shiny/index.html#my-shiny-projects",
+    "title": "Shiny Apps",
+    "section": "",
+    "text": "This section will showcase the Shiny apps I develop, along with code snippets and lessons learned.",
+    "crumbs": [
+      "Shiny Apps"
+    ]
+  },
+  {
+    "objectID": "shiny/index.html#learning-outcomes",
+    "href": "shiny/index.html#learning-outcomes",
+    "title": "Shiny Apps",
+    "section": "",
+    "text": "After working through this section, I should be able to:\n\nBuild effective user interfaces for data-driven web applications\nImplement Shiny’s reactive programming model effectively\nOptimize Shiny apps for improved performance and scalability\nCreate reusable components with Shiny modules\nExtend Shiny applications with custom JavaScript functionality\nDeploy Shiny applications to various hosting platforms\nImplement authentication and authorization in Shiny apps\nCreate professional dashboards that communicate insights effectively",
+    "crumbs": [
+      "Shiny Apps"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R-Development Garden",
+    "section": "",
+    "text": "This is a curated project with the goal of a fully focused deep-dive into learning R. Each section includes resources, practice projects, and learning outcomes."
   },
   {
     "objectID": "r4ds/index.html",
     "href": "r4ds/index.html",
     "title": "R for Data Science",
     "section": "",
-    "text": "R for Data Science",
+    "text": "This section focuses on modern data science workflows in R using the tidyverse collection of packages. Based on the R for Data Science (2nd Edition) book by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund.\n\n\n\nData transformation: Using dplyr for manipulating tabular data\nData visualization: Creating effective graphics with ggplot2\nData import: Reading various file formats into R\nTidy data: Structuring data effectively with tidyr\nExploratory data analysis: Iterative process of visualization and transformation\nCommunication: Sharing results through reports, dashboards, and visualizations\n\n\n\n\n\nR for Data Science, 2nd Edition - Modern R workflows using tidyverse\nR Programming for Data Science - Introduction from Roger Peng\nModernDive - Statistical inference via data science\nHands-On Programming with R - Learning R through building games\n\n\n\n\nI’ll be adding my practice projects and code examples in this section as I work through the book.\n\n\n\nAfter working through this section, I should be able to:\n\nTransform and manipulate tabular data efficiently using dplyr\nCreate effective data visualizations with ggplot2\nImport data from various file formats into R\nStructure data properly using tidy data principles\nConduct thorough exploratory data analysis\nCommunicate findings through reports and visualizations\nApply data wrangling workflows to real-world datasets\nBuild reproducible data analysis pipelines",
+    "crumbs": [
+      "R for Data Science"
+    ]
+  },
+  {
+    "objectID": "r4ds/index.html#key-topics",
+    "href": "r4ds/index.html#key-topics",
+    "title": "R for Data Science",
+    "section": "",
+    "text": "Data transformation: Using dplyr for manipulating tabular data\nData visualization: Creating effective graphics with ggplot2\nData import: Reading various file formats into R\nTidy data: Structuring data effectively with tidyr\nExploratory data analysis: Iterative process of visualization and transformation\nCommunication: Sharing results through reports, dashboards, and visualizations",
+    "crumbs": [
+      "R for Data Science"
+    ]
+  },
+  {
+    "objectID": "r4ds/index.html#resources",
+    "href": "r4ds/index.html#resources",
+    "title": "R for Data Science",
+    "section": "",
+    "text": "R for Data Science, 2nd Edition - Modern R workflows using tidyverse\nR Programming for Data Science - Introduction from Roger Peng\nModernDive - Statistical inference via data science\nHands-On Programming with R - Learning R through building games",
+    "crumbs": [
+      "R for Data Science"
+    ]
+  },
+  {
+    "objectID": "r4ds/index.html#practice-projects",
+    "href": "r4ds/index.html#practice-projects",
+    "title": "R for Data Science",
+    "section": "",
+    "text": "I’ll be adding my practice projects and code examples in this section as I work through the book.",
+    "crumbs": [
+      "R for Data Science"
+    ]
+  },
+  {
+    "objectID": "r4ds/index.html#learning-outcomes",
+    "href": "r4ds/index.html#learning-outcomes",
+    "title": "R for Data Science",
+    "section": "",
+    "text": "After working through this section, I should be able to:\n\nTransform and manipulate tabular data efficiently using dplyr\nCreate effective data visualizations with ggplot2\nImport data from various file formats into R\nStructure data properly using tidy data principles\nConduct thorough exploratory data analysis\nCommunicate findings through reports and visualizations\nApply data wrangling workflows to real-world datasets\nBuild reproducible data analysis pipelines",
     "crumbs": [
       "R for Data Science"
     ]

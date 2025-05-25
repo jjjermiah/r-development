@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jermiah Joseph">
+<meta name="dcterms.date" content="2025-05-25">
+<meta name="description" content="Deep dive into R language internals and programming paradigms">
 
-<title>index – R Development</title>
+<title>Advanced R – R Development</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../adv-r/01-wrangle.html" rel="next">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -104,21 +106,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-advanced-r" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Advanced R</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-advanced-r">    
-        <li>
-    <a class="dropdown-item" href="../adv-r/index.html">
- <span class="dropdown-text">welcome</span></a>
+  <li class="nav-item">
+    <a class="nav-link active" href="../adv-r/index.html" aria-current="page"> 
+<span class="menu-text">Advanced R</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../adv-r/01-wrangle.html">
- <span class="dropdown-text">hi</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-package-dev" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Package Dev</span>
@@ -137,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-production-engineering">    
         <li>
     <a class="dropdown-item" href="../r-production/index.html">
- <span class="dropdown-text">R in production</span></a>
+ <span class="dropdown-text">R in Production</span></a>
   </li>  
     </ul>
   </li>
@@ -159,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-modelling">    
         <li>
     <a class="dropdown-item" href="../modelling/index.html">
- <span class="dropdown-text">Building models in R</span></a>
+ <span class="dropdown-text">Building Models in R</span></a>
   </li>  
     </ul>
   </li>
@@ -174,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adv-r/index.html">welcome</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adv-r/index.html">Advanced R</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -189,15 +180,12 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../adv-r/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">welcome</span></a>
+ <span class="menu-text">Advanced R</span></a>
   </div>
 </li>
         <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../adv-r/01-wrangle.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">hi</span></a>
-  </div>
-</li>
+ <span class="menu-text">adv-r/01-wrangle.qmd</span>
+  </li>
     </ul>
     </div>
 </nav>
@@ -208,20 +196,104 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">welcome</a></li>
+  <li><a href="#advanced-r" id="toc-advanced-r" class="nav-link active" data-scroll-target="#advanced-r">Advanced R</a>
+  <ul class="collapse">
+  <li><a href="#key-topics" id="toc-key-topics" class="nav-link" data-scroll-target="#key-topics">Key Topics</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#practice-work" id="toc-practice-work" class="nav-link" data-scroll-target="#practice-work">Practice Work</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jjjermiah/r-development/edit/main/adv-r/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jjjermiah/r-development/blob/main/adv-r/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jjjermiah/r-development/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Advanced R</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Advanced Programming</div>
+    <div class="quarto-category">Performance</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Deep dive into R language internals and programming paradigms
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jermiah Joseph </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 25, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<section id="welcome" class="level1">
-<h1>welcome</h1>
+</header>
 
 
+<section id="advanced-r" class="level1">
+<h1>Advanced R</h1>
+<p>This section is dedicated to more advanced R programming concepts, based primarily on <a href="https://adv-r.hadley.nz/">Hadley Wickham’s Advanced R book</a>. Here, I’ll be exploring R’s language internals, functional programming patterns, metaprogramming, and performance optimization.</p>
+<section id="key-topics" class="level2">
+<h2 class="anchored" data-anchor-id="key-topics">Key Topics</h2>
+<ul>
+<li><strong>Language fundamentals:</strong> Understanding R’s unique object and environment systems</li>
+<li><strong>Functional programming:</strong> Working with functions as first-class objects<br>
+</li>
+<li><strong>Object-oriented programming:</strong> Exploring S3, S4, and R6 class systems</li>
+<li><strong>Metaprogramming:</strong> Manipulating code as data with non-standard evaluation</li>
+<li><strong>Performance optimization:</strong> Profiling, memory management, and code efficiency</li>
+<li><strong>Rcpp integration:</strong> Extending R with C++ for performance-critical code</li>
+</ul>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><a href="https://adv-r.hadley.nz/">Advanced R, 2nd Edition</a> - Hadley Wickham’s definitive guide</li>
+<li><a href="https://advanced-r-solutions.rbind.io/">Advanced R Solutions</a> - Companion with exercise answers</li>
+<li><a href="http://www.burns-stat.com/pages/Tutor/R_inferno.pdf">The R Inferno</a> - Quirky guide to common R traps</li>
+</ul>
+</section>
+<section id="practice-work" class="level2">
+<h2 class="anchored" data-anchor-id="practice-work">Practice Work</h2>
+<ul>
+<li><a href="01-wrangle.html">Data Wrangling</a> - Advanced data manipulation techniques</li>
+</ul>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>After working through this section, I should be able to:</p>
+<ul>
+<li>Understand R’s unique object and environment systems</li>
+<li>Apply functional programming patterns to write cleaner, more maintainable code</li>
+<li>Implement and use different object-oriented programming systems in R (S3, S4, R6)</li>
+<li>Leverage metaprogramming techniques to solve advanced problems</li>
+<li>Profile and optimize R code for better performance</li>
+<li>Extend R with C++ using Rcpp for performance-critical operations</li>
+<li>Debug complex R code more effectively</li>
+</ul>
+
+
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -642,18 +714,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../adv-r/01-wrangle.html" class="pagination-link" aria-label="hi">
-        <span class="nav-page-text">hi</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jjjermiah/r-development/edit/main/adv-r/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jjjermiah/r-development/blob/main/adv-r/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jjjermiah/r-development/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

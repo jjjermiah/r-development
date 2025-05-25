@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jermiah Joseph">
+<meta name="dcterms.date" content="2025-05-25">
+<meta name="description" content="Creating, documenting, testing, and sharing R packages">
 
-<title>index – R Development</title>
+<title>R Package Development – R Development</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,21 +106,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-advanced-r" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Advanced R</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-advanced-r">    
-        <li>
-    <a class="dropdown-item" href="../adv-r/index.html">
- <span class="dropdown-text">welcome</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../adv-r/index.html"> 
+<span class="menu-text">Advanced R</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../adv-r/01-wrangle.html">
- <span class="dropdown-text">hi</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-package-dev" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Package Dev</span>
@@ -136,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-production-engineering">    
         <li>
     <a class="dropdown-item" href="../r-production/index.html">
- <span class="dropdown-text">R in production</span></a>
+ <span class="dropdown-text">R in Production</span></a>
   </li>  
     </ul>
   </li>
@@ -158,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-modelling">    
         <li>
     <a class="dropdown-item" href="../modelling/index.html">
- <span class="dropdown-text">Building models in R</span></a>
+ <span class="dropdown-text">Building Models in R</span></a>
   </li>  
     </ul>
   </li>
@@ -201,20 +193,104 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-package-development" id="toc-r-package-development" class="nav-link active" data-scroll-target="#r-package-development">R Package Development</a></li>
+  <li><a href="#r-package-development" id="toc-r-package-development" class="nav-link active" data-scroll-target="#r-package-development">R Package Development</a>
+  <ul class="collapse">
+  <li><a href="#key-topics" id="toc-key-topics" class="nav-link" data-scroll-target="#key-topics">Key Topics</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#my-package-projects" id="toc-my-package-projects" class="nav-link" data-scroll-target="#my-package-projects">My Package Projects</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jjjermiah/r-development/edit/main/r-pkgs/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jjjermiah/r-development/blob/main/r-pkgs/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jjjermiah/r-development/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">R Package Development</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Package Development</div>
+    <div class="quarto-category">Documentation</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Creating, documenting, testing, and sharing R packages
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jermiah Joseph </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 25, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="r-package-development" class="level1">
 <h1>R Package Development</h1>
+<p>This section covers the process of creating, documenting, testing, and sharing R packages. Based primarily on <a href="https://r-pkgs.org/">R Packages (2nd Edition)</a> by Hadley Wickham and Jenny Bryan.</p>
+<section id="key-topics" class="level2">
+<h2 class="anchored" data-anchor-id="key-topics">Key Topics</h2>
+<ul>
+<li><strong>Package structure:</strong> Understanding the fundamental components of R packages</li>
+<li><strong>Documentation:</strong> Using roxygen2 for function documentation and vignettes</li>
+<li><strong>Testing:</strong> Implementing unit tests with testthat</li>
+<li><strong>Dependencies:</strong> Managing package dependencies efficiently</li>
+<li><strong>CRAN submission:</strong> Preparing packages for CRAN submission</li>
+<li><strong>GitHub integration:</strong> Using GitHub for version control and collaboration</li>
+<li><strong>Continuous integration:</strong> Setting up CI/CD workflows for R packages</li>
+</ul>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><a href="https://r-pkgs.org/">R Packages, 2nd Edition</a> - How to write and maintain R packages</li>
+<li><a href="https://design.tidyverse.org/">Tidyverse Design Guide</a> - Philosophy and patterns for extensibility</li>
+<li><a href="https://devguide.ropensci.org/">rOpenSci Packages Guide</a> - Best practices for scientific packages</li>
+<li><a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html">Writing R Extensions</a> - Official R manual for package authors</li>
+</ul>
+</section>
+<section id="my-package-projects" class="level2">
+<h2 class="anchored" data-anchor-id="my-package-projects">My Package Projects</h2>
+<p>I’ll document my package development journey here, including any packages I create.</p>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>After working through this section, I should be able to:</p>
+<ul>
+<li>Create well-structured R packages following best practices</li>
+<li>Write comprehensive function documentation using roxygen2</li>
+<li>Implement effective unit tests to ensure package reliability</li>
+<li>Manage package dependencies efficiently</li>
+<li>Prepare packages for submission to CRAN</li>
+<li>Use GitHub for package version control and collaboration</li>
+<li>Set up continuous integration workflows for R packages</li>
+<li>Create vignettes and other documentation to help users understand my packages</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -640,4 +716,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jjjermiah/r-development/edit/main/r-pkgs/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jjjermiah/r-development/blob/main/r-pkgs/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jjjermiah/r-development/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

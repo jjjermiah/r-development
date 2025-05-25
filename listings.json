@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/adv-r/index.html",
+      "/modelling/index.html",
+      "/r-pkgs/index.html",
+      "/r4ds/index.html",
+      "/r-production/index.html",
+      "/shiny/index.html"
+    ]
+  }
+]

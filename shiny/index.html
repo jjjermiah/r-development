@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jermiah Joseph">
+<meta name="dcterms.date" content="2025-05-25">
+<meta name="description" content="Building interactive web applications with R Shiny">
 
-<title>index – R Development</title>
+<title>Shiny Apps – R Development</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,21 +106,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-advanced-r" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Advanced R</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-advanced-r">    
-        <li>
-    <a class="dropdown-item" href="../adv-r/index.html">
- <span class="dropdown-text">welcome</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../adv-r/index.html"> 
+<span class="menu-text">Advanced R</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../adv-r/01-wrangle.html">
- <span class="dropdown-text">hi</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-package-dev" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Package Dev</span>
@@ -136,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-production-engineering">    
         <li>
     <a class="dropdown-item" href="../r-production/index.html">
- <span class="dropdown-text">R in production</span></a>
+ <span class="dropdown-text">R in Production</span></a>
   </li>  
     </ul>
   </li>
@@ -158,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-modelling">    
         <li>
     <a class="dropdown-item" href="../modelling/index.html">
- <span class="dropdown-text">Building models in R</span></a>
+ <span class="dropdown-text">Building Models in R</span></a>
   </li>  
     </ul>
   </li>
@@ -201,20 +193,106 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#shiny-apps" id="toc-shiny-apps" class="nav-link active" data-scroll-target="#shiny-apps">Shiny Apps</a></li>
+  <li><a href="#shiny-apps" id="toc-shiny-apps" class="nav-link active" data-scroll-target="#shiny-apps">Shiny Apps</a>
+  <ul class="collapse">
+  <li><a href="#key-topics" id="toc-key-topics" class="nav-link" data-scroll-target="#key-topics">Key Topics</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#my-shiny-projects" id="toc-my-shiny-projects" class="nav-link" data-scroll-target="#my-shiny-projects">My Shiny Projects</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jjjermiah/r-development/edit/main/shiny/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jjjermiah/r-development/blob/main/shiny/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jjjermiah/r-development/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Shiny Apps</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Shiny</div>
+    <div class="quarto-category">Web Apps</div>
+    <div class="quarto-category">Interactive</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Building interactive web applications with R Shiny
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jermiah Joseph </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 25, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="shiny-apps" class="level1">
 <h1>Shiny Apps</h1>
+<p>This section is dedicated to interactive web applications built with Shiny, R’s powerful web framework for creating data-driven apps and dashboards.</p>
+<section id="key-topics" class="level2">
+<h2 class="anchored" data-anchor-id="key-topics">Key Topics</h2>
+<ul>
+<li><strong>UI fundamentals:</strong> Building effective user interfaces with Shiny</li>
+<li><strong>Reactivity:</strong> Understanding Shiny’s reactive programming model</li>
+<li><strong>Performance:</strong> Optimizing Shiny apps for speed and scalability</li>
+<li><strong>Modules:</strong> Creating reusable components with Shiny modules</li>
+<li><strong>JavaScript integration:</strong> Extending Shiny with custom JavaScript</li>
+<li><strong>Deployment:</strong> Publishing apps to shinyapps.io, Shiny Server, and RStudio Connect</li>
+<li><strong>Authentication:</strong> Implementing user authentication in Shiny apps</li>
+</ul>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><a href="https://mastering-shiny.org/">Mastering Shiny</a> - Hadley Wickham’s comprehensive guide</li>
+<li><a href="https://engineering-shiny.org/">Engineering Production-Grade Shiny Apps</a> - Deploying Shiny at scale</li>
+<li><a href="https://shiny.posit.co/r/gallery/">Shiny Gallery</a> - Examples and inspiration</li>
+<li><a href="https://plotly-r.com/">Interactive Web Data Visualization with Plotly &amp; Shiny</a> - Advanced visualizations</li>
+<li><a href="https://connect.thinkr.fr/js4shinyfieldnotes/">JS4Shiny Field Notes</a> - Add JavaScript to Shiny</li>
+</ul>
+</section>
+<section id="my-shiny-projects" class="level2">
+<h2 class="anchored" data-anchor-id="my-shiny-projects">My Shiny Projects</h2>
+<p>This section will showcase the Shiny apps I develop, along with code snippets and lessons learned.</p>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>After working through this section, I should be able to:</p>
+<ul>
+<li>Build effective user interfaces for data-driven web applications</li>
+<li>Implement Shiny’s reactive programming model effectively</li>
+<li>Optimize Shiny apps for improved performance and scalability</li>
+<li>Create reusable components with Shiny modules</li>
+<li>Extend Shiny applications with custom JavaScript functionality</li>
+<li>Deploy Shiny applications to various hosting platforms</li>
+<li>Implement authentication and authorization in Shiny apps</li>
+<li>Create professional dashboards that communicate insights effectively</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -640,4 +718,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jjjermiah/r-development/edit/main/shiny/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jjjermiah/r-development/blob/main/shiny/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jjjermiah/r-development/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

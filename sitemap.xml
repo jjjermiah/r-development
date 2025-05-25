@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jjjermiah.github.io/r-development/index.html</loc>
-    <lastmod>2025-05-25T18:15:57.088Z</lastmod>
+    <loc>https://jjjermiah.github.io/r-development/r-production/index.html</loc>
+    <lastmod>2025-05-25T18:47:32.753Z</lastmod>
   </url>
   <url>
-    <loc>https://jjjermiah.github.io/r-development/adv-r/01-wrangle.html</loc>
-    <lastmod>2025-05-25T18:15:57.087Z</lastmod>
+    <loc>https://jjjermiah.github.io/r-development/adv-r/index.html</loc>
+    <lastmod>2025-05-25T18:47:32.759Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jjjermiah.github.io/r-development/r-pkgs/index.html</loc>
+    <lastmod>2025-05-25T18:47:43.586Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jjjermiah.github.io/r-development/modelling/index.html</loc>
+    <lastmod>2025-05-25T18:47:32.759Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jjjermiah.github.io/r-development/shiny/index.html</loc>
+    <lastmod>2025-05-25T18:47:32.758Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jjjermiah.github.io/r-development/index.html</loc>
+    <lastmod>2025-05-25T19:02:29.482Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jjjermiah.github.io/r-development/r4ds/index.html</loc>
+    <lastmod>2025-05-25T18:47:32.758Z</lastmod>
   </url>
 </urlset>

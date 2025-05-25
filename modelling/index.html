@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jermiah Joseph">
+<meta name="dcterms.date" content="2025-05-25">
+<meta name="description" content="Statistical modeling and machine learning approaches in R">
 
-<title>index – R Development</title>
+<title>Building Models in R – R Development</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,21 +106,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-advanced-r" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Advanced R</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-advanced-r">    
-        <li>
-    <a class="dropdown-item" href="../adv-r/index.html">
- <span class="dropdown-text">welcome</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../adv-r/index.html"> 
+<span class="menu-text">Advanced R</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../adv-r/01-wrangle.html">
- <span class="dropdown-text">hi</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-package-dev" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Package Dev</span>
@@ -136,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-production-engineering">    
         <li>
     <a class="dropdown-item" href="../r-production/index.html">
- <span class="dropdown-text">R in production</span></a>
+ <span class="dropdown-text">R in Production</span></a>
   </li>  
     </ul>
   </li>
@@ -158,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-modelling">    
         <li>
     <a class="dropdown-item" href="../modelling/index.html">
- <span class="dropdown-text">Building models in R</span></a>
+ <span class="dropdown-text">Building Models in R</span></a>
   </li>  
     </ul>
   </li>
@@ -173,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modelling/index.html">Building models in R</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modelling/index.html">Building Models in R</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -188,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../modelling/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Building models in R</span></a>
+ <span class="menu-text">Building Models in R</span></a>
   </div>
 </li>
     </ul>
@@ -201,20 +193,107 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#building-models-in-r" id="toc-building-models-in-r" class="nav-link active" data-scroll-target="#building-models-in-r">Building models in R</a></li>
+  <li><a href="#building-models-in-r" id="toc-building-models-in-r" class="nav-link active" data-scroll-target="#building-models-in-r">Building Models in R</a>
+  <ul class="collapse">
+  <li><a href="#key-topics" id="toc-key-topics" class="nav-link" data-scroll-target="#key-topics">Key Topics</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#model-gallery" id="toc-model-gallery" class="nav-link" data-scroll-target="#model-gallery">Model Gallery</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jjjermiah/r-development/edit/main/modelling/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jjjermiah/r-development/blob/main/modelling/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jjjermiah/r-development/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Building Models in R</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Modeling</div>
+    <div class="quarto-category">Statistics</div>
+    <div class="quarto-category">Machine Learning</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Statistical modeling and machine learning approaches in R
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jermiah Joseph </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 25, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="building-models-in-r" class="level1">
-<h1>Building models in R</h1>
+<h1>Building Models in R</h1>
+<p>This section explores statistical modeling, machine learning, and inference techniques in R, covering both classical and modern approaches.</p>
+<section id="key-topics" class="level2">
+<h2 class="anchored" data-anchor-id="key-topics">Key Topics</h2>
+<ul>
+<li><strong>Linear models:</strong> Regression, ANOVA, and their extensions</li>
+<li><strong>Generalized linear models:</strong> Logistic, Poisson regression, and more</li>
+<li><strong>Mixed effects models:</strong> Analyzing hierarchical and longitudinal data</li>
+<li><strong>Bayesian analysis:</strong> Using Stan, brms, and Bayesian workflows</li>
+<li><strong>Machine learning:</strong> Classification, regression, clustering with tidymodels</li>
+<li><strong>Deep learning:</strong> Neural networks with torch and keras</li>
+<li><strong>Model evaluation:</strong> Cross-validation, metrics, and model comparison</li>
+<li><strong>Interpretable machine learning:</strong> Understanding model predictions</li>
+</ul>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><a href="https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/">Statistical Rethinking (recoded in R)</a> - Bayesian modeling</li>
+<li><a href="https://avehtari.github.io/ROS-Examples/">Regression and Other Stories</a> - Applied regression with R</li>
+<li><a href="https://bradleyboehmke.github.io/HOML/">Hands-on Machine Learning with R</a> - From preprocessing to modeling</li>
+<li><a href="https://www.tmwr.org/">Tidy Modeling with R</a> - Using tidymodels framework</li>
+<li><a href="https://www.bayesrulesbook.com/">Bayes Rules!</a> - Intro Bayesian modeling with R</li>
+</ul>
+</section>
+<section id="model-gallery" class="level2">
+<h2 class="anchored" data-anchor-id="model-gallery">Model Gallery</h2>
+<p>I’ll document my modeling projects here, including code examples, visualizations, and performance analyses.</p>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>After working through this section, I should be able to:</p>
+<ul>
+<li>Build and interpret various types of linear and generalized linear models</li>
+<li>Implement mixed effects models for hierarchical and longitudinal data</li>
+<li>Perform Bayesian analysis using Stan, brms, and related frameworks</li>
+<li>Apply machine learning techniques using the tidymodels ecosystem</li>
+<li>Implement neural networks and deep learning models in R</li>
+<li>Properly evaluate models using cross-validation and appropriate metrics</li>
+<li>Interpret model results to derive meaningful insights</li>
+<li>Select appropriate modeling approaches for different types of problems</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -640,4 +719,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jjjermiah/r-development/edit/main/modelling/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jjjermiah/r-development/blob/main/modelling/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/jjjermiah/r-development/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
