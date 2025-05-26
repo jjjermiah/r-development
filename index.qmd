@@ -3,15 +3,15 @@ title: "R-Development Garden"
 description: "A comprehensive journey into R programming, packages, and production-ready applications"
 format: html
 
-listing: 
-  type: default
-  contents:
-    - adv-r
-    - r4ds
-    - r-pkgs
-    - r-production
-    - modelling
-    - shiny
+# listing: 
+#   type: default
+#   contents:
+#     - adv-r
+#     - r4ds
+#     - r-pkgs
+#     - r-production
+#     - modelling
+#     - shiny
 
 ---
 

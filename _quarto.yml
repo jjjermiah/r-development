@@ -6,6 +6,7 @@ project:
 
 website:
   title: "R Development" 
+  site-url: https://jjjermiah.github.io/r-development/
   repo-url: https://github.com/jjjermiah/r-development
   repo-actions: [edit, source, issue]
   navbar:
@@ -19,17 +20,17 @@ website:
       - text: "R for Data Science"
         href: r4ds/index.qmd
 
-      - text: "Package Dev"
+      - text: "R Package Development"
         href: r-pkgs/index.qmd
 
-      - text: "Production Engineering"
+      - text: "R in Production Engineering"
         href: r-production/index.qmd
 
-      - text: "Shiny"
+      - text: "R Shiny Applications"
         href: shiny/index.qmd
 
-      - text: "Modelling"
-        href: modelling/index.qmd
+      - text: "Building and Using Models"
+        href: modelling/index.qmd``
 
   sidebar:
     - id: r4ds
@@ -42,20 +43,21 @@ website:
       contents: adv-r
     
     - id: r-pkgs
-      title: "Package Dev"
+      title: "R Package Development"
       contents: r-pkgs
     
     - id: r-production
-      title: "Production Engineering"
+      title: "R in Production Engineering"
       contents: r-production
     
     - id: shiny
-      title: "Shiny"
+      title: "R Shiny Applications"
       contents: shiny
 
     - id: modelling
-      title: "Modelling"
+      title: "Building and Using Models"
       contents: modelling
+
 
   page-navigation: true
 
