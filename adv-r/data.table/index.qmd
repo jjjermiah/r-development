@@ -1,0 +1,6 @@
+# Data.table
+
+
+
+[dtplyr](https://dtplyr.tidyverse.org/)
+[data.table & dplyr](https://atrebas.github.io/post/2019-03-03-datatable-dplyr/)
