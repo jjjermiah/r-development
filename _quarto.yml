@@ -1,73 +1,70 @@
 project:
-  type: website
-  preview:
-    port: 4020
-    browser: false
+    type: website
+    preview:
+        port: 4020
+        browser: false
 
 website:
-  title: "R Development" 
-  site-url: https://jjjermiah.github.io/r-development/
-  repo-url: https://github.com/jjjermiah/r-development
-  repo-actions: [edit, source, issue]
-  navbar:
-    left:
-      - text: "Home"
-        file: index.qmd
+    title: "R Development"
+    site-url: https://jjjermiah.github.io/r-development/
+    repo-url: https://github.com/jjjermiah/r-development
+    repo-actions: [edit, source, issue]
+    navbar:
+        left:
+            - text: "Home"
+              file: index.qmd
 
-      - text: "Advanced R"
-        href: adv-r/index.qmd
-      
-      - text: "R for Data Science"
-        href: r4ds/index.qmd
+            - text: "Advanced R"
+              href: adv-r/index.qmd
 
-      - text: "R Package Development"
-        href: r-pkgs/index.qmd
+            - text: "R for Data Science"
+              href: r4ds/index.qmd
 
-      - text: "R in Production Engineering"
-        href: r-production/index.qmd
+            - text: "Statistical & ML Models"
+              href: modelling/index.qmd
 
-      - text: "R Shiny Applications"
-        href: shiny/index.qmd
+            - text: "Package Development"
+              href: r-pkgs/index.qmd
 
-      - text: "Building and Using Models"
-        href: modelling/index.qmd``
+            - text: "R in Production"
+              href: r-production/index.qmd
 
-  sidebar:
-    - id: r4ds
-      title: "R for Data Science"
-      href: r4ds/index.qmd
-      contents: r4ds
-    
-    - id: adv-r
-      title: "Advanced R"
-      contents: adv-r
-    
-    - id: r-pkgs
-      title: "R Package Development"
-      contents: r-pkgs
-    
-    - id: r-production
-      title: "R in Production Engineering"
-      contents: r-production
-    
-    - id: shiny
-      title: "R Shiny Applications"
-      contents: shiny
-
-    - id: modelling
-      title: "Building and Using Models"
-      contents: modelling
+            - text: "Shiny Applications"
+              href: shiny/index.qmd
 
 
-  page-navigation: true
+    sidebar:
+        - id: r4ds
+          title: "R for Data Science"
+          href: r4ds/index.qmd
+          contents: r4ds
+
+        - id: adv-r
+          title: "Advanced R"
+          contents: adv-r
+
+        - id: r-pkgs
+          title: "Package Development"
+          contents: r-pkgs
+
+        - id: r-production
+          title: "R in Production"
+          contents: r-production
+
+        - id: shiny
+          title: "Shiny Applications"
+          contents: shiny
+
+        - id: modelling
+          title: "Statistical & ML Models"
+          contents: modelling
+
+    page-navigation: true
 
 format:
-  html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
-
-
+    html:
+        theme:
+            - cosmo
+            - brand
+        css: styles.css
+        toc: true

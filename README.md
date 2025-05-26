@@ -1,3 +1,5 @@
+# Extra Resources
+
 This is a curated project with the goal of a fully focused deep-dive
 into learning R. Each section includes resources, practice projects, and learning outcomes.
 
@@ -7,18 +9,15 @@ into learning R. Each section includes resources, practice projects, and learnin
 
 Fundamentals and best practices for writing robust and readable R code.
 
-- **R for Data Science, 2nd Ed.** – Modern R workflows using tidyverse  
-  https://r4ds.hadley.nz  
-- **R Programming for Data Science** – Intro from Roger Peng  
-  https://bookdown.org/rdpeng/rprogdatascience/  
-- **Hands-On Programming with R** – Learn R through building games  
-  https://rstudio-education.github.io/hopr/  
-- **Efficient R Programming** – Profiling, memory, speed  
-  https://csgillespie.github.io/efficientR/  
-- **Advanced R, 2nd Ed.** – Language internals and functional patterns  
-  https://adv-r.hadley.nz  
-- **Advanced R Solutions** – Companion answers to exercises  
-  https://advanced-r-solutions.rbind.io  
+| Resource                                                                            | Description                                |
+|-------------------------------------------------------------------------------------|--------------------------------------------|
+| [**R for Data Science, 2nd Ed.**](https://r4ds.hadley.nz)                           | Modern R workflows using tidyverse         |
+| [**R Programming for Data Science**](https://bookdown.org/rdpeng/rprogdatascience/) | Intro from Roger Peng                      |
+| [**Hands-On Programming with R**](https://rstudio-education.github.io/hopr/)        | Learn R through building games             |
+| [**Efficient R Programming**](https://csgillespie.github.io/efficientR/)            | Profiling, memory, speed                   |
+| [**Advanced R, 2nd Ed.**](https://adv-r.hadley.nz)                                  | Language internals and functional patterns |
+| [**Advanced R Solutions**](https://advanced-r-solutions.rbind.io)                   | Companion answers to exercises             |
+| [**Advanced R 'Course'**](https://privefl.github.io/advr38book/introduction.html)   | Additional advanced R materials            |
 
 ---
 
@@ -26,10 +25,10 @@ Fundamentals and best practices for writing robust and readable R code.
 
 Authoring clean, testable, production-grade packages.
 
-- **R Packages, 2nd Ed.** – How to write and maintain R packages  
-  https://r-pkgs.org  
-- **Tidyverse Design Guide** – Philosophy and patterns for extensibility  
-  https://design.tidyverse.org  
+| Resource                                                   | Description                               |
+|------------------------------------------------------------|-------------------------------------------|
+| [**R Packages, 2nd Ed.**](https://r-pkgs.org)              | How to write and maintain R packages      |
+| [**Tidyverse Design Guide**](https://design.tidyverse.org) | Philosophy and patterns for extensibility |
 
 ---
 
@@ -37,12 +36,11 @@ Authoring clean, testable, production-grade packages.
 
 Creating effective visual communication with ggplot2 and beyond.
 
-- **ggplot2, 3rd Ed.** – The definitive book  
-  https://ggplot2-book.org  
-- **R Graphics Cookbook** – Recipe-based graphics guide  
-  https://r-graphics.org  
-- **Fundamentals of Data Visualization** – Design-focused guide  
-  https://clauswilke.com/dataviz/  
+| Resource                                                                  | Description                 |
+|---------------------------------------------------------------------------|-----------------------------|
+| [**ggplot2, 3rd Ed.**](https://ggplot2-book.org)                          | The definitive book         |
+| [**R Graphics Cookbook**](https://r-graphics.org)                         | Recipe-based graphics guide |
+| [**Fundamentals of Data Visualization**](https://clauswilke.com/dataviz/) | Design-focused guide        |
 
 ---
 
@@ -50,14 +48,12 @@ Creating effective visual communication with ggplot2 and beyond.
 
 Interactive dashboards and production deployment.
 
-- **Mastering Shiny** – Build full Shiny apps  
-  https://mastering-shiny.org  
-- **Engineering Production-Grade Shiny** – Deploying Shiny at scale  
-  https://engineering-shiny.org  
-- **Interactive Web Data Visualization with Plotly & Shiny**  
-  https://plotly-r.com  
-- **JS4Shiny Field Notes** – Add JavaScript to Shiny  
-  https://connect.thinkr.fr/js4shinyfieldnotes/  
+| Resource                                                                           | Description                    |
+|------------------------------------------------------------------------------------|--------------------------------|
+| [**Mastering Shiny**](https://mastering-shiny.org)                                 | Build full Shiny apps          |
+| [**Engineering Production-Grade Shiny**](https://engineering-shiny.org)            | Deploying Shiny at scale       |
+| [**Interactive Web Data Visualization with Plotly & Shiny**](https://plotly-r.com) | Data visualization with Plotly |
+| [**JS4Shiny Field Notes**](https://connect.thinkr.fr/js4shinyfieldnotes/)          | Add JavaScript to Shiny        |
 
 ---
 
@@ -65,16 +61,13 @@ Interactive dashboards and production deployment.
 
 Bayesian, regression, and classical inference workflows.
 
-- **Statistical Inference via Data Science (ModernDive)**  
-  https://moderndive.com  
-- **Regression and Other Stories** – Applied regression with R  
-  https://avehtari.github.io/ROS-Examples/  
-- **Bayes Rules!** – Intro Bayesian modeling with R  
-  https://www.bayesrulesbook.com/  
-- **Statistical Rethinking (recode in R)**  
-  https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/  
-- **Handbook of Regression in People Analytics**  
-  http://peopleanalytics-regression-book.org/index.html  
+| Resource                                                                                                | Description                        |
+|---------------------------------------------------------------------------------------------------------|------------------------------------|
+| [**Statistical Inference via Data Science (ModernDive)**](https://moderndive.com)                       | Statistical inference fundamentals |
+| [**Regression and Other Stories**](https://avehtari.github.io/ROS-Examples/)                            | Applied regression with R          |
+| [**Bayes Rules!**](https://www.bayesrulesbook.com/)                                                     | Intro Bayesian modeling with R     |
+| [**Statistical Rethinking (recode in R)**](https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/) | Advanced Bayesian analysis         |
+| [**Handbook of Regression in People Analytics**](http://peopleanalytics-regression-book.org/index.html) | Regression for HR analytics        |
 
 ---
 
@@ -82,14 +75,12 @@ Bayesian, regression, and classical inference workflows.
 
 Reproducibility and reporting tools with Quarto, R Markdown, Bookdown.
 
-- **R Markdown: The Definitive Guide**  
-  https://bookdown.org/yihui/rmarkdown/  
-- **R Markdown Cookbook**  
-  https://bookdown.org/yihui/rmarkdown-cookbook/  
-- **Bookdown** – Author books in R  
-  https://bookdown.org/yihui/bookdown/  
-- **Blogdown** – Create static blogs with R Markdown  
-  https://bookdown.org/yihui/blogdown/  
+| Resource                                                                      | Description                         |
+|-------------------------------------------------------------------------------|-------------------------------------|
+| [**R Markdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/) | Comprehensive R Markdown reference  |
+| [**R Markdown Cookbook**](https://bookdown.org/yihui/rmarkdown-cookbook/)     | Practical R Markdown recipes        |
+| [**Bookdown**](https://bookdown.org/yihui/bookdown/)                          | Author books in R                   |
+| [**Blogdown**](https://bookdown.org/yihui/blogdown/)                          | Create static blogs with R Markdown |
 
 ---
 
@@ -97,12 +88,11 @@ Reproducibility and reporting tools with Quarto, R Markdown, Bookdown.
 
 Optimize R code and interface with compiled code.
 
-- **Seamless R and C++ with Rcpp**  
-  https://rcpp.org/book/  
-- **Advanced R: Rcpp chapter**  
-  https://adv-r.hadley.nz/rcpp.html  
-- **The R Inferno** – Quirky guide to common R traps  
-  http://www.burns-stat.com/pages/Tutor/R_inferno.pdf  
+| Resource                                                                 | Description                    |
+|--------------------------------------------------------------------------|--------------------------------|
+| [**Seamless R and C++ with Rcpp**](https://rcpp.org/book/)               | Integrating R with C++         |
+| [**Advanced R: Rcpp chapter**](https://adv-r.hadley.nz/rcpp.html)        | Focused coverage of Rcpp       |
+| [**The R Inferno**](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf) | Quirky guide to common R traps |
 
 ---
 
@@ -110,11 +100,10 @@ Optimize R code and interface with compiled code.
 
 Model building and modern ML frameworks in R.
 
-- **Hands-on Machine Learning with R** – From preprocessing to modeling  
-  https://bradleyboehmke.github.io/HOML/  
-  https://koalaverse.github.io/homlr/  
-- **Tidy Modeling with R** – Using tidymodels  
-  https://www.tmwr.org  
+| Resource                                                                       | Description                                                                      |
+|--------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| [**Hands-on Machine Learning with R**](https://bradleyboehmke.github.io/HOML/) | From preprocessing to modeling ([alt link](https://koalaverse.github.io/homlr/)) |
+| [**Tidy Modeling with R**](https://www.tmwr.org)                               | Using tidymodels                                                                 |
 
 ---
 
@@ -122,12 +111,11 @@ Model building and modern ML frameworks in R.
 
 Create reproducible, maintainable workflows.
 
-- **Reproducible Research with R and RStudio**  
-  https://bookdown.org/rdpeng/RProgDA/  
-- **Targets** – Robust reproducible R pipelines  
-  https://books.ropensci.org/targets/  
-- **drake** – Declarative pipeline toolkit  
-  https://books.ropensci.org/drake/  
+| Resource                                                                             | Description                           |
+|--------------------------------------------------------------------------------------|---------------------------------------|
+| [**Reproducible Research with R and RStudio**](https://bookdown.org/rdpeng/RProgDA/) | Fundamentals of reproducible research |
+| [**Targets**](https://books.ropensci.org/targets/)                                   | Robust reproducible R pipelines       |
+| [**drake**](https://books.ropensci.org/drake/)                                       | Declarative pipeline toolkit          |
 
 ---
 
@@ -135,8 +123,9 @@ Create reproducible, maintainable workflows.
 
 Working with textual data in the tidyverse.
 
-- **Text Mining with R** – Tidy approach to unstructured data  
-  https://www.tidytextmining.com  
+| Resource                                                 | Description                        |
+|----------------------------------------------------------|------------------------------------|
+| [**Text Mining with R**](https://www.tidytextmining.com) | Tidy approach to unstructured data |
 
 ---
 
@@ -144,10 +133,10 @@ Working with textual data in the tidyverse.
 
 More technical or graduate-level material.
 
-- **R for Graduate Students**  
-  https://bookdown.org/yih_huynh/Guide-to-R-Book/  
-- **Dive into Deep Learning** – Deep learning foundations (MxNet, PyTorch)  
-  https://d2l.ai  
+| Resource                                                                       | Description                                |
+|--------------------------------------------------------------------------------|--------------------------------------------|
+| [**R for Graduate Students**](https://bookdown.org/yih_huynh/Guide-to-R-Book/) | Advanced R learning for academic research  |
+| [**Dive into Deep Learning**](https://d2l.ai)                                  | Deep learning foundations (MxNet, PyTorch) |
 
 ---
 
@@ -155,5 +144,6 @@ More technical or graduate-level material.
 
 Shell and CLI skills for working alongside R.
 
-- **Data Science at the Command Line, 2nd Ed.**  
-  https://www.datascienceatthecommandline.com/2e/index.html  
+| Resource                                                                                                   | Description                           |
+|------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| [**Data Science at the Command Line, 2nd Ed.**](https://www.datascienceatthecommandline.com/2e/index.html) | Shell and CLI skills for data science |

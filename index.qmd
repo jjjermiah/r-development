@@ -21,3 +21,43 @@ This is a curated project with the goal of a fully focused deep-dive
 into learning R. Each section includes resources, practice projects, and learning outcomes.
 
 ## Contents
+
+| Section | Description | Link |
+|---------|-------------|------|
+| R for Data Science | Modern data science workflows using the tidyverse | [Go to Section](r4ds/index.qmd) |
+| Advanced R | Deep dive into R language internals and programming paradigms | [Go to Section](adv-r/index.qmd) |
+| R Package Development | Creating, documenting, testing, and sharing R packages | [Go to Section](r-pkgs/index.qmd) |
+| R in Production | Strategies for using R in production environments | [Go to Section](r-production/index.qmd) |
+| Shiny Apps | Building interactive web applications with R Shiny | [Go to Section](shiny/index.qmd) |
+| Building Models in R | Statistical modeling and machine learning approaches | [Go to Section](modelling/index.qmd) |
+
+Each section contains curated resources, practical examples, and defined learning outcomes to guide the learning process. Click on any section to explore the specific topics and start working through the materials.
+
+## How to Use This Site
+
+This R-Development Garden is organized into focused learning paths, each dedicated to a specific aspect of R programming. To make the most of this resource:
+
+1. **Choose a path**: Select a section from the table above based on your learning goals
+2. **Review resources**: Explore the recommended books and websites for each topic
+3. **Work through examples**: Follow the practice projects and code examples
+4. **Check your progress**: Use the learning outcomes as a benchmark for your understanding
+5. **Build connections**: Look for ways to apply concepts across different sections
+
+You can navigate between sections using the navbar at the top of the page. Each section has its own sidebar for navigating through subtopics.
+
+## Learning Journey
+
+This site is designed to support a progressive learning journey through R:
+
+1. **Foundation** → Start with [R for Data Science](r4ds/index.qmd) to establish core skills
+2. **Extension** → Move to specialized areas based on your interests:
+   - For programming depth: [Advanced R](adv-r/index.qmd)
+   - For software development: [R Package Development](r-pkgs/index.qmd)
+   - For data analysis: [Building Models](modelling/index.qmd)
+3. **Application** → Apply your skills in practical contexts:
+   - For interactive tools: [Shiny Apps](shiny/index.qmd)
+   - For deployment: [R in Production](r-production/index.qmd)
+
+While you can explore sections in any order, the above sequence provides a structured path for comprehensive learning.
+
+{{< include README.md >}}
